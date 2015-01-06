@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color:#ff0000;
+  background-color: white;
+}
+
+header, footer {
+  display: block;
+  width: 100%;
+  background-color: #ff0000;
+}
+
+.box {
+  background-color: #f5f5f5;
+  border: 1px dotted red;
+  margin-bottom: 10px;
+}
+/*  layout */
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+section {
+  width: 72% ;
+
+}
+
+
+
+aside {
+  width: 25%;
+}

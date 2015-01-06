@@ -1,0 +1,88 @@
+body {
+  font-family: courier;
+  color: white;
+  background-color: #c0c0c0;
+}
+#splash {
+  width:1080px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.navigation2{
+  width: 1080px;
+  margin:auto;
+  padding:0px;
+  background-color: #333;
+}
+
+p {
+  margin-left: 5px;
+}
+
+#racecar {
+  float: right;
+  width:350px;
+  height: 500px;
+  margin-left: 5px;
+  border-radius: 30px;
+}
+
+.pics{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-left: 75px;
+  display: inline-block;
+}
+
+#first{
+  margin-left: 480px;
+}
+ul li {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin-left: 7px;
+}
+
+.gallery {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 35px;
+  border-radius: 100%;
+}
+
+.pics{
+  width: 300px;
+  height: 300px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.listing {
+  border: 5px;
+}
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-48 { width: 48px; height: 48px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .ig-b-48 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }</style>
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #000;
+}

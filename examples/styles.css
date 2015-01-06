@@ -1,0 +1,39 @@
+body{
+  color:red;
+}
+h1, h2, {
+  color:red;
+  background-color: yellow;
+}
+
+p {
+  color:orange;
+  font-size:10px;
+  font-weight:bold;
+}
+
+.squishy {
+  font-size: 40px;
+  background-color: yellow;
+}
+
+#mine {
+  background-color: red;
+}
+
+ul > li {
+  font-size:2px;
+}
+
+div > span {
+  margin-top: 40px;
+  padding: 20px;
+  background-color:blue;
+  border-radius: 25%
+}
+
+div > span > span {
+  background-color: white;
+  padding: 10px;
+
+}
