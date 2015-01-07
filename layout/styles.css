@@ -1,27 +1,37 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff0a5;
-  font-family: helvetica;
+  background-color: #fffbda;
 }
 
-h1, h2, {
- color: #732000;
- padding-left: 2px;
+h1 {
+ color: #fffbda;
 }
 
-h3, h4, h6, h5{
-  color: #fff0a5;
+h2, h3 {
+  color: #690307;
+}
+
+h4, h6, h5 {
+  color: #690307;
 }
 
 header , footer {
   width: 100%;
   padding: 5px;
-  background-color: #8e2800;
-  color: #fff0a5;
-  border-radius: 20px;
+  background-color: #690307;
+  color: #fffbda;
+  font-size: 24px;
+  font-family: 'tangerine', serif;
+  box-shadow: 5px 5px 7px #690307;
 }
+
 /*all nav items*/
+nav {
+  font-family: 'tangerine', serif;
+  font-size: 30px;
+}
+
 nav li {
   margin-bottom: 10px;
   display:inline-block;
@@ -31,18 +41,18 @@ nav li {
 
 nav a {
   list-style-text: none;
-  color: #ffb03b;
+  color: #fffbda;
 }
-nav a:hover {
-  color:#b64926;
+ nav a:hover {
+  color: #b64926;
 }
 
 nav a:visited:hover {
-  color:#fff0a5;
+  color: #fffbda;
 }
 
 nav a:visited {
-  color: #ffb03b;
+  color: #fffbda;
 }
 
 .center {
@@ -55,11 +65,12 @@ nav a:visited {
   box-shadow: 3px 3px 2px #732000;
 }
 
-.container{
+.container {
   width:50%;
   margin: 0 25% 0 25%;
-  background-color: #8e2800;
+  background-color: #fffbda;
   box-shadow: 5px 5px 10px #8e2800;
+  color: #690307;
 }
 
 .box {
@@ -78,16 +89,15 @@ nav a:visited {
 
 /* about page */
 
-#racecar{
+#racecar {
   height:500px;
   width: 400px;
   margin: 5px 5px 5px 5px;
   float: left;
   border-radius: 20px;
-  box-shadow: 5px 5px 7px #732000;
 }
 
-.dogs{
+.dogs {
   vertical-align: top;
   width: 30%;
   margin-left: 110px;
@@ -105,7 +115,7 @@ nav a:visited {
   color: red;
 }
 
-.dogs a:hover{
+.dogs a:hover {
   color:white;
 }
 
@@ -122,8 +132,8 @@ nav a:visited {
   padding-left: 5px;
   display: inline-block;
   vertical-align: top;
-
 }
+
 .webdev img {
   color: #fffqa5;
   margin: 5%;
@@ -138,6 +148,7 @@ nav a:visited {
   padding: 5px;
   display: inline-block;
 }
+
 .gallery img {
   width: 125px;
   height: 125px;
@@ -145,4 +156,10 @@ nav a:visited {
   box-shadow: 3px 3px 2px #732000;
   display: inline-block;
   margin: 1%;
+}
+.gallery img:hover {
+  width: 375px;
+  height: 375px;
+  display: block;
+  border-radius: 20px;
 }
