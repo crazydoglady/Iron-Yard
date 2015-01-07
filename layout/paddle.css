@@ -1,0 +1,98 @@
+ * {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 450px;
+  color: white;
+  background-color: blue;
+  background-image: url(../images/waves.png);
+  opacity: 0.8;
+}
+
+header img {
+  width: 100%;
+  height: 300px;
+
+}
+
+img.logo{
+  width: 300px;
+  height: 75px;
+  float: left;
+  display:inline-block;
+}
+
+header nav {
+  float:right;
+}
+.container {
+  width: 75%;
+  margin: 0 12% 0 12%;
+}
+section {
+  width: 37%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.first {
+  
+}
+
+.second {
+  margin: 0 10% 0 0;
+}
+
+img.headshot {
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
+
+img.ad {
+  width:100%;
+}
+
+ section ul li{
+  list-style-type: none;
+  display: inline-block;
+ }
+
+ .popular {
+  width: 100%;
+}
+
+.popular p {
+  background-color: blue;
+}
+ .popular img {
+  width:24%;
+  background-color: blue;
+  opacity: 0.3;
+}
+
+.popular img:hover {
+  opacity: 1.0;
+}
+
+ footer img {
+  width:500px;
+  height: 100px;
+  float:left;
+  display: inline-block;
+}
+footer nav {
+
+}
+
+ footer li {
+  list-style-type: none;
+  display: inline-block;
+}

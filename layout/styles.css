@@ -2,14 +2,17 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fffbda;
+  font-family: lobster, cursive;
 }
 
 h1 {
- color: #fffbda;
+ color: #690307;
+ font-family: 'tangerine', serif;
 }
 
 h2, h3 {
   color: #690307;
+  font-family: 'tangerine', serif;
 }
 
 h4, h6, h5 {
@@ -112,15 +115,15 @@ nav a:visited {
 }
 
 .dogs a {
-  color: red;
+  color: #690307;
 }
 
 .dogs a:hover {
-  color:white;
+  color: #690307;
 }
 
 .dogs a:visited {
-  color: white;
+  color: #690307;
 }
 
 /*gallery page*/
