@@ -1,17 +1,26 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: grey;
+  background-color: #fff0a5;
   font-family: helvetica;
+}
+
+h1, h2, {
+ color: #732000;
+ padding-left: 2px;
+}
+
+h3, h4, h6, h5{
+  color: #fff0a5;
 }
 
 header , footer {
   width: 100%;
   padding: 5px;
-  background-color: black;
-  color: white;
+  background-color: #8e2800;
+  color: #fff0a5;
+  border-radius: 20px;
 }
-
 /*all nav items*/
 nav li {
   margin-bottom: 10px;
@@ -22,25 +31,35 @@ nav li {
 
 nav a {
   list-style-text: none;
-  color: white;
+  color: #ffb03b;
 }
 nav a:hover {
-  color:red;
+  color:#b64926;
+}
+
+nav a:visited:hover {
+  color:#fff0a5;
 }
 
 nav a:visited {
-  color: white;
+  color: #ffb03b;
 }
 
 .center {
   width: 50%;
   margin: 0 25% 0 25%;
 }
+.center img {
+  width:100%;
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px #732000;
+}
 
 .container{
   width:50%;
-  margin: 10px 25% 0 25%;
-  border: 2px solid black;
+  margin: 0 25% 0 25%;
+  background-color: #8e2800;
+  box-shadow: 5px 5px 10px #8e2800;
 }
 
 .box {
@@ -65,6 +84,7 @@ nav a:visited {
   margin: 5px 5px 5px 5px;
   float: left;
   border-radius: 20px;
+  box-shadow: 5px 5px 7px #732000;
 }
 
 .dogs{
@@ -78,6 +98,7 @@ nav a:visited {
   float: clear;
   width: 250px;
   border-radius: 100%;
+  box-shadow: 5px 5px 9px #732000;
 }
 
 .dogs a {
@@ -94,8 +115,34 @@ nav a:visited {
 
 /*gallery page*/
 
+.webdev {
+  color: #fffqa5;
+  width: 40%;
+  margin: 0 5% 0 5%;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.webdev img {
+  color: #fffqa5;
+  margin: 5%;
+  width: 200px;
+  height:200px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px #732000;
+}
+.gallery {
+  width:40%;
+  margin:0 5% 0 0;
+  padding: 5px;
+  display: inline-block;
+}
 .gallery img {
-  width: 250px;
-  height: 250px;
+  width: 125px;
+  height: 125px;
   border-radius: 20px;
+  box-shadow: 3px 3px 2px #732000;
+  display: inline-block;
+  margin: 1%;
 }
