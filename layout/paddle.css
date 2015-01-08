@@ -17,7 +17,7 @@ header {
   height: 450px;
   color: white;
   padding-top: 0;
-  background-image: url(../images/waves.png);
+  background-image: url(../images/waves2.png);
 }
 
 h1 {
@@ -137,11 +137,9 @@ section {
 
 }
 .tagline2 img{
-  border-radius:100%;
   margin-right: 3px;
-  height: 40px;
-  width: 40px;
-  float: left;
+  height: 340px;
+  width: 270px;
   display: inline-block;
 }
 .second ul li {
@@ -185,8 +183,15 @@ img.ad {
   padding: 0;
 }
 
+.text {
+  font-size:36px;
+  font-weight: 50;
+  position: relative;
+  text-align: left;
+}
+
 #phtxt1 {
-  background-image: url(../images/billiebeach.png);
+  background-image: url(../images/surfer1.png);
   width: 24.7%;
   height: 300px;
   margin: 0;
@@ -200,7 +205,8 @@ img.ad {
 }
 
 #phtxt2 {
-  background-image: url(../images/billiebeach.png);
+  background-image: url(../images/beer1.png);
+  repeat: none;
   width: 24.7%;
   height: 300px;
   margin: 0;
@@ -212,7 +218,7 @@ img.ad {
   opacity: 1.0;
 }
 #phtxt3 {
-  background-image: url(../images/billiebeach.png);
+  background-image: url(../images/zackg.png);
   width: 24.7%;
   height: 300px;
   margin: 0;
@@ -225,7 +231,7 @@ img.ad {
   opacity: 1.0;
 }
 #phtxt4 {
-  background-image: url(../images/billiebeach.png);
+  background-image: url(../images/liquor1.png);
   width: 24.7%;
   height: 300px;
   margin: 0;
@@ -257,7 +263,7 @@ nav footer {
 }
 
 footer ul {
-  margin-left: 50%;
+  margin: 0 0 0 50%;
 }
 
 footer li {
