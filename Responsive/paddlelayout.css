@@ -26,7 +26,7 @@ header {
   color: white;
   margin-bottom: 20px;
   padding-top: 0;
-  background: linear-gradient(rgba(25, 114, 185, 0.8), rgba(25, 114, 185, 0.8)),
+  background: linear-gradient(rgba(04, 57, 102, 0.6), rgba(04, 57, 102, 0.6)),
   url('../images/waves2.png');
   repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ header li a:visited {
 
 .logo {
   height: 60px;
-  opacity: 1.0;
+  opacity: 0.6;
 }
 
 img.logo{
@@ -310,7 +310,7 @@ h4 {
   padding-top: 40px;
   margin: 10px 0 0 0;
   text-align: center;
-  display: inline-block;
+  display: block;
   border-top: 1px solid #C9CED6;
 }
 
@@ -319,6 +319,7 @@ h4 {
 }
 
 .wrapper2 {
+  display: block;
   width: 100%;
   height: 300px;
   margin-left: auto;
@@ -414,28 +415,29 @@ li h5 {
 }
 
 footer {
-  height: 100px;
+  color: white;
   width: 100%;
   margin: 0;
-  padding: 0;
-
+  padding: 0 0 40px 0;
+  display: inline-block;
 }
+
 .footwrap {
   background-color: #083452;
-  height: 100px;
 }
 
 nav footer {
-  width: 50%;
+  width: 320px;
+  height: 200px;
   padding: 0;
   display: inline-block;
 }
 
 footer img {
-  width:500px;
+  width: 100px;
   height: 100px;
   float:left;
-  display: inline-block;
+  display: block;
 }
 
 
@@ -446,16 +448,17 @@ footer ul {
 
 footer li {
   color: white;
+  display: inline-block;
   margin-left: 30px;
   list-style-type: none;
-  display: inline-block;
   border-left: 2px solid white;
-  padding-left: 10px;
+  padding: 0;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+  display: inline-block;
 }
 #first {
   border: 0;
@@ -463,6 +466,7 @@ nav a {
 
 /* ---------  Responsive design elements only ----------------------- */
 @media screen and (max-width: 320px) {
+
   body {
     margin: 0;
     padding: 0;
@@ -550,7 +554,7 @@ nav a {
     display: inline-block;
     position: absolute;
     left: 25%;
-    padding-top: 20px;
+    padding-top: 23px;
     height:50px;
     width: 50px;
     margin-right: auto;
@@ -621,18 +625,25 @@ nav a {
   }
 
   .buttonwrap li {
+    display: inline-block;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    background-color: white;
+  }
+   .buttonwrap li:hover {
+     background-color: navy;
+   }
+
+  .buttonwrap a  p{
     display: none;
   }
 
-  .buttonwrap a  p{
-    hdisplay: none;
-  }
-
   .buttonwrap img {
-    background-color: white;
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     margin: 0;
     padding: 0;
   }
@@ -683,7 +694,6 @@ nav a {
     margin-right: auto;
     padding: 0;
     display: block;
-
   }
 
   .tagline2 {
@@ -696,22 +706,23 @@ nav a {
     text-align: center;
   }
 
-  .tagline2 > .adtext3{
+  .tagline2 > .adtext3 {
     float: right;
   }
 
-  .tagline2 h3{
+  .tagline2 h3 {
     Font-weight: bold;
     Font-size: 24px;
     padding: 0;
     margin:0  auto;
   }
 
-  .tagline2 img{
+  .tagline2 img {
     height: 340px;
     width: 270px;
     margin: 0 auto;
   }
+
   .tagline2 ul {
     color: #07457A;
     font-size: 24px;
@@ -762,6 +773,7 @@ nav a {
     padding-bottom: 10px;
     font-size: 27px;
     text-align: center;
+    display: block;
   }
 
   .wrapper2 {
@@ -769,13 +781,14 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    display: block;
     list-style-type: none;
   }
 
   .wrapper li {
     position:relative;
     float: left;
-    display: inline-block;
+    display: block;
   }
 
   li h5 {
@@ -833,48 +846,4 @@ nav a {
     text-decoration: none;
   }
 
-  footer {
-    height: 100px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .footwrap {
-    background-color: white;
-  }
-
-  nav footer {
-    width: 50%;
-    padding: 0;
-    display: inline-block;
-  }
-
-  footer img {
-    width: 100%;
-    display: block;
-  }
-
-
-  footer ul {
-    margin: 0 0 0 50%;
-    padding-top: 35px;
-  }
-
-  footer li {
-    color: white;
-    margin-left: 30px;
-    list-style-type: none;
-    display: inline-block;
-    border-left: 2px solid white;
-    padding-left: 10px;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: white;
-  }
-
-  #first {
-    border: 0;
-  }
 }
