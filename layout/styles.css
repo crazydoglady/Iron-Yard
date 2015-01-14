@@ -1,6 +1,4 @@
-* {
-  border: 1px solid blue;
-}
+
 body {
   padding: 0;
   margin: 0;
@@ -14,9 +12,15 @@ h1 {
   font-family: 'tangerine', serif;
 }
 
-h2, h3 {
+h2 {
   color: #690307;
   font-family: 'tangerine', serif;
+}
+
+h3 {
+  color:#690307;
+  font-family: 'tangerine', serif;
+  font-size: 24px;
 }
 
 h4, h6, h5 {
@@ -25,7 +29,6 @@ h4, h6, h5 {
 
 header , footer {
   width: 100%;
-  padding: 5px;
   background-color: #690307;
   color: #fffbda;
   font-size: 24px;
@@ -39,13 +42,19 @@ nav {
 }
 
 nav li {
+  width: 24%;
   margin-bottom: 10px;
   display:inline-block;
   list-style-type: none;
-  padding-left: 18%;
+  padding: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0 24% 0 24%;
 }
 
 nav a {
+  margin: 0 24% 0 24%;
   list-style-text: none;
   color: #fffbda;
 }
@@ -109,14 +118,15 @@ nav a:visited {
 
 .dogs {
   vertical-align: top;
-  width: 30%;
-  margin-left: 110px;
+  width: 49%;
+  margin-left: 3px;
+  margin-right: auto;
   display: inline-block;
 }
 
 .dogs img {
-  float: clear;
-  width: 75%;
+  margin: 3px 24% 3px 24%;
+  width: 50%;
   border-radius: 100%;
   box-shadow: 5px 5px 9px #732000;
 }
@@ -137,26 +147,28 @@ nav a:visited {
 
 .webdev {
   color: #fffqa5;
-  width: 40%;
-  margin: 0 5% 0 5%;
-  padding-left: 5px;
+  width: 49%;
+  margin: 0;
+  padding: 0;
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 .webdev img {
   color: #fffqa5;
-  margin: 5%;
-  width: 200px;
-  height:200px;
+  margin:0;
+  width: 125px;
+  height: 125px;
   border-radius: 30px;
   box-shadow: 3px 3px 2px #732000;
 }
 .gallery {
-  width:40%;
-  margin:0 5% 0 0;
-  padding: 5px;
+  width:49%;
+  margin:0;
+  padding: 0;
   display: inline-block;
+  text-align: center;
 }
 
 .gallery img {
@@ -165,48 +177,71 @@ nav a:visited {
   border-radius: 20px;
   box-shadow: 3px 3px 2px #732000;
   display: inline-block;
-  margin: 1%;
+  margin: 0;
 }
 .gallery img:hover {
-  width: 375px;
-  height: 375px;
-  display: block;
+  posiion: absolute;
+  transform: scale(2.0);
+  display: inline-block;
   border-radius: 20px;
 }
-/*responsive only below this point*/
+
+/*--Responsive design below--*/
+
 @media screen and (max-width: 900px){
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
 }
 
-  nav li {
-    padding: 0;
-    margin: 0 25% 0 25%;
-  }
-  .center {
+.center {
     margin-right: auto;
     margin-left: auto;
   }
+
+.container {
+  font-family: sans-serif;
+  font-size: 18px;
+}
 
 nav li {
       margin: 0 25% 0 25%;
       padding: 0;
       display:inline-block;
       list-style-type: none;
+      font-family: sans-serif;
     }
 
 .dogs img {
-  float: left;
+  width: 50%;
 }
 
 .dogs {
-    display: inline-block;
-    margin: 0 auto;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-family: sans-serif;
+  font-size: 20px;
   }
 
-  gallery img {
-    width: 75%;
+.dogs h2 {
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+  .webdev {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .gallery {
+    text-align: center;
+    width: 50%;
+    margin: 0 24% 0 24%;
     display: block;
     margin: 0 auto;
   }
@@ -233,7 +268,10 @@ nav li {
   .center {
     width: 100%;
     margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
   }
+
 
   .center img {
     width:100%;
@@ -241,11 +279,21 @@ nav li {
     box:shadow: 0;
   }
 
+
   .container {
     width:50%;
     margin: 0;
     background-color: #fffbda;
     color: #690307;
+    .container {
+    font-family: sans-serif;
+    font-size: 18px;
+    }
+  }
+
+  .container h2 {
+    font-family: sans-serif;
+    font-size: 36px;
   }
 
   .box {
@@ -253,6 +301,8 @@ nav li {
     display: block;
     vertical-align: top;
     margin-left: 0;
+    font-family: sans-serif;
+    font-size: 18px;
   }
 
   .box img {
@@ -271,6 +321,21 @@ nav li {
 
   .center {
     display: block;
+  }
+
+ .webdev img {
+   width: 300px;
+   height: 300px;
+   box-shadow: none;
+ }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: none;
+    display: block;
+    margin: 0 24% 0 24%;
   }
 
   }
