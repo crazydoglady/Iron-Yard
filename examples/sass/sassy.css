@@ -1,0 +1,24 @@
+#page {
+  background-color: #505050;
+  color: white; }
+  #page #page .highlight {
+    background-color: yellow; }
+
+/*nested--*/
+.left-col, .right-col {
+  float: left; }
+
+.left-col {
+  width: 66%; }
+
+.right-col {
+  width: 34%; }
+
+.box {
+  background-color: #0000e5;
+  padding: 12px;
+  margin: 5px;
+  display: inline-block; }
+
+h1 {
+  color: #0000e5; }
