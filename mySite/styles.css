@@ -32,22 +32,25 @@ header, footer {
 nav {
   font-family: 'tangerine', serif;
   font-size: 30px; }
-
-nav li {
-  width: 24%;
-  margin-bottom: 10px;
-  display: inline-block;
-  list-style-type: none;
-  padding: 0; }
-
-nav ul {
-  padding: 0;
-  margin: 0 24% 0 24%; }
-
-nav a {
-  margin: 0 24% 0 24%;
-  list-style-text: none;
-  color: #fffbda; }
+  nav ul {
+    padding: 0;
+    margin: 0 24% 0 24%; }
+    nav ul li {
+      width: 24%;
+      margin-bottom: 10px;
+      display: inline-block;
+      list-style-type: none;
+      padding: 0; }
+      nav ul li a {
+        margin: 0 24% 0 24%;
+        list-style-text: none;
+        color: #fffbda; }
+        nav ul li a:hover {
+          color: #b64926; }
+        nav ul li a:visited:hover {
+          color: #fffbda; }
+        nav ul li a:visited {
+          color: #fffbda; }
 
 nav a:hover {
   color: #b64926; }
@@ -62,11 +65,10 @@ nav a:visited {
 .center {
   width: 90%;
   margin: 0 auto; }
-
-.center img {
-  width: 100%;
-  border-radius: 30px;
-  box-shadow: 3px 3px 2px #690307; }
+  .center img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 2px #690307; }
 
 .container {
   width: 50%;
@@ -80,11 +82,10 @@ nav a:visited {
   margin-left: 16%;
   display: inline-block;
   vertical-align: top; }
-
-.box img {
-  float: clear;
-  width: 90%;
-  border-radius: 100%; }
+  .box img {
+    float: clear;
+    width: 90%;
+    border-radius: 100%; }
 
 /* about page */
 #racecar {
@@ -100,21 +101,18 @@ nav a:visited {
   margin-left: 3px;
   margin-right: auto;
   display: inline-block; }
-
-.dogs img {
-  margin: 3px 24% 3px 24%;
-  width: 50%;
-  border-radius: 100%;
-  box-shadow: 5px 5px 9px #690307; }
+  .dogs img {
+    margin: 3px 24% 3px 24%;
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 9px #690307; }
 
 .dogs a {
   color: #690307; }
-
-.dogs a:hover {
-  color: #690307; }
-
-.dogs a:visited {
-  color: #690307; }
+  .dogs a :hover {
+    color: #690307; }
+  .dogs a a:visited {
+    color: #690307; }
 
 /*gallery page*/
 .webdev {
@@ -138,17 +136,15 @@ nav a:visited {
   padding: 0;
   display: inline-block;
   text-align: center; }
-
-.gallery img {
+  .gallery img {
     width: 125px;
     height: 125px;
     border-radius: 20px;
     box-shadow: 3px 3px 2px #690307;
     display: inline-block;
     margin: 0; }
-
-.gallery img :hover {
-      posiion: absolute;
+    .gallery img:hover {
+      position: absolute;
       transform: scale(3);
       display: inline-block;
       border-radius: 20px; }
@@ -177,11 +173,11 @@ nav a:visited {
     padding: 0 10px 0 10px;
     font-family: sans-serif;
     font-size: 20px; }
-    .dogs img {
-      width: 50%; }
-    .dogs h2 {
-      font-family: sans-serif;
-      font-size: 36px; }
+  .dogs img {
+    width: 50%; }
+  .dogs h2 {
+    font-family: sans-serif;
+    font-size: 36px; }
   .webdev {
     width: 100%;
     margin: 0;
@@ -209,23 +205,26 @@ nav a:visited {
   .center {
     width: 100%;
     margin: 0;
+    display: block;
     font-family: sans-serif;
-    font-size: 18px; }
-  .center img {
-    width: 100%;
-    border-radius: 30px;
-    box-shadow: 0; }
+    font-size: 18px;
+    -webkit-animation: open 2s;
+    -moz-animation: open 2s;
+    -o-animation: open 2s;
+    animation: open 2s; }
+    .center img {
+      width: 100%;
+      border-radius: 30px;
+      box-shadow: 0; }
   .container {
-    width: 50%;
+    width: 100%;
     margin: 0;
     background-color: #fffbda;
-    color: #690307; }
-    .container .container {
-      font-family: sans-serif;
-      font-size: 18px; }
-  .container h2 {
+    color: #690307;
     font-family: sans-serif;
-    font-size: 36px; }
+    font-size: 18px; }
+    .container h2 {
+      font-size: 36px; }
   .box {
     width: 100%;
     display: block;
@@ -233,17 +232,10 @@ nav a:visited {
     margin-left: 0;
     font-family: sans-serif;
     font-size: 18px; }
-  .box img {
-    float: clear;
-    width: 100%;
-    border-radius: 100%; }
-  .container {
-    width: 100%;
-    margin: 0;
-    background-color: #fffbda;
-    color: #690307; }
-  .center {
-    display: block; }
+    .box img {
+      float: clear;
+      width: 100%;
+      border-radius: 100%; }
   .webdev img {
     width: 300px;
     height: 300px;
