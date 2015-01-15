@@ -6,6 +6,10 @@ $mainfont: 'tangerine';
   border-radius: $radius;
 }
 
+@mixin shadow () {
+  box-shadow: 3px 3px 2px $red;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -93,7 +97,7 @@ nav a:visited {
   img {
     width:100%;
     @include border-radius (30px);
-    box-shadow: 3px 3px 2px $red;
+    @include shadow ();
   }
 }
 
@@ -101,7 +105,7 @@ nav a:visited {
   width:50%;
   margin: 0 25% 0 25%;
   background-color: $cream;
-  box-shadow: 5px 5px 10px $red;
+  @include shadow ();
   color: $red;
 }
 
@@ -137,7 +141,7 @@ nav a:visited {
     margin: 3px 24% 3px 24%;
     width: 50%;
     @include border-radius (100%);
-    box-shadow: 5px 5px 9px $red;
+    @include shadow ();
   }
 }
 
@@ -166,7 +170,7 @@ nav a:visited {
     width: 125px;
     height: 125px;
     @include border-radius (30px);
-    box-shadow: 3px 3px 2px $red;
+    @include shadow ();
   }
   }
 
@@ -180,7 +184,7 @@ nav a:visited {
     width: 125px;
     height: 125px;
     @include border-radius (20px);
-    box-shadow: 3px 3px 2px $red;
+    @include shadow ();
     display: inline-block;
     margin: 0;
     &:hover {
