@@ -10,6 +10,13 @@ $mainfont: 'tangerine';
   box-shadow: 3px 3px 2px $red;
 }
 
+@mixin hover ($scale) {
+  position: absolute;
+  transform: scale($scale);
+  display: inline-block;
+  @include border-radius (20px);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -142,6 +149,9 @@ nav a:visited {
     width: 50%;
     @include border-radius (100%);
     @include shadow ();
+    & :hover {
+     @include hover (1.0);
+    }
   }
 }
 
@@ -171,6 +181,9 @@ nav a:visited {
     height: 125px;
     @include border-radius (30px);
     @include shadow ();
+    &:hover {
+      @include hover (2.0);
+    }
   }
   }
 
