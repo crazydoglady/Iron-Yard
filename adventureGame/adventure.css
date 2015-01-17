@@ -1,0 +1,31 @@
+body{
+  background-color: #13a2af;
+}
+
+.wrapper {
+  background-color: #3be2e2;
+  margin: 0 auto;
+  height: 300px;
+  width: 750px;
+  box-shadow: 5px 5px 10px #0c8783;
+}
+h1 {
+  padding-top: 75px;
+  font-size: 36px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: #1a45b2;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+
+}
