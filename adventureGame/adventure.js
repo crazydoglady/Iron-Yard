@@ -1,18 +1,86 @@
-var score = 0
+var score = 0;
+var destination = ["beach", "park", "store"];
+var parkAct = ["pond", "dogs", "fence"];
+
 var car = function() {
-  carPrompt = prompt("You leap into the back of the car and the humans start to drive. The car arrives at destination. The silly humans drop your leash as you get out of the car. Do you WAIT or RUN?") .toLowerCase();
+  carPrompt = prompt("The car arrives at destination. The silly humans drop your leash as you get out of the car. Do you WAIT or RUN?") .toLowerCase();
   console.log("You leap into the back of the car and the humans start to drive. The car arrives at destination. The silly humans drop your leash as you get out of the car.");
 if(carPrompt ==="wait") {
-  console.log("You are a good dog and wait for human to pickup leash. They give you a big cookie and an ear rub");
+  console.log("You are a good dog and wait for human to pickup leash. They give you a big cookie and an ear rub +10 points");
   score+=10;
   beach();
 } else if (carPrompt ==="run"){
+  alert("You wait for human to turn and close the car door, and you start walking away! -30 points")
   score -=30;
-  alert("Humans bribe you back to car with a cookie, but not before you have a grand adventure of your own. What happens in the swamp, stays in the swamp. Unfortunately, you had stepped on an shell, and your paw is bleeding. You don't care and want to show humans the awesome pile of mud you found. Humans shake their heads, grab the leash and start going the wrong way! You bark in protest. -30 points")
-  console.log("Humans bribe you back to car with a cookie, but not before you have a grand adventure of your own. What happens in the swamp, stays in the swamp. Unfortunately, you had stepped on an shell, and your paw is bleeding. You don't care and want to show humans the awesome pile of mud you found. Humans shake their heads, grab the leash and start going the wrong way! You bark in protest. -30points");
-  vet();
+  run();
 }
 };
+var run = function() {
+var runPrompt = prompt("Human yells at you. Do you LISTEN or RUN ?") .toLowerCase();
+if (runPrompt ==="run"){
+    console.log("You take off at full speed! You run once through some trees, then out of sight and loop back to the parking lot.");
+    alert("The Humans bribe you back to car with a cookie, but not before you have a grand adventure of your own. What happens in the swamp, stays in the swamp. Unfortunately, you had stepped on an shell, and your paw is bleeding. You don't care and want to show humans the awesome pile of mud you found. Humans shake their heads, grab the leash and start going the wrong way! You bark in protest. -30 points");
+    console.log("Humans bribe you back to car with a cookie, but not before you have a grand adventure of your own. What happens in the swamp, stays in the swamp. Unfortunately, you had stepped on an shell, and your paw is bleeding. You don't care and want to show humans the awesome pile of mud you found. Humans shake their heads, grab the leash and start going the wrong way! You bark in protest. -30points");
+    score -=30;
+    vet();
+} else if (runPrompt === "listen") {
+  alert("You come back to human with tail between your legs. Human gives you a hug and says 'Good Dog' for listening and not getting lost. You walk together towards your destination. +15points")
+  score +=15;
+  picnic();
+}
+};
+
+var pick = function() {
+   var choice = prompt(" Humans load you in the car and start to pull out of the driveway. Human asks 'Where do you want to go?' Oh the sweet taste of freedom! Do you choose the BEACH, PARK or STORE ?") .toLowerCase();
+   if (choice === destination[0]) {
+      alert("The Humans turn in the direction towards the beach.");
+    beach();
+  } else if (choice === destination[1]) {
+    park();
+}
+};
+
+var picnic = function() {
+  var picnicPrompt = prompt("Your Human takes you for a walk on a nearby trail. You come across a picnic area. It is crowded and there is a lot of activity. You smell meat and see a dog across the pavilion. Do you look for FOOD or go see the DOG?") .toLowerCase();
+if (picnicPrompt === "food") {
+ alert("You casually stroll over by the grill. HOT DOGS!!! You hit the jackpot. Someone stops your human to talk and you see your opportunity- you jump up onto the grill and snag a sausage. It's hot and the grill has burned your paw! You drop the hot dog and Human runs over and drags you away, but you don't stop fighting as your prize is left behind in the dirt. You keep trying to go back for it, even once it is out of view. -10 points");
+  score -=10;
+  vet();
+} else if (picnicPrompt ==="dog") {
+  alert("You wander through the picnic and make a few human friends. Someone scratches your back in just the right place and your leg starts tapping. You could stay here forever!");
+ marmaduke();
+ }
+};
+
+var pond = function() {
+alert("You run off to the pond without looking back!")
+var gatorPrompt = prompt("You splash into the water at full speed. You are swimming around, and you see something big and scary swimming around. Do you get LOOK or ALERT others about it?") .toLowerCase();
+if (gatorPrompt === "look") {
+  alert("You swim towards it hoping for a game of Marco Polo with the laborador you saw splashing around.It's an alligator! Humans warned you about these. You turn and scramble to get out of the water but slip on a rock on the beach and hurt your foot. You run to get your human so they can see the gator, but Human sees you and is worried about the big scratch on your leg and says it is time to leave. -15 points");
+  score -= 15;
+  vet();
+} else if (gatorPrompt === "alert") {
+  alert("It's swimming too fast and is too big and scary. You bark loudly then run to shore and start growling. Humans run over to see what is the matter. Humans see the alligator and the dog park is evacuated! You are a hero! +20 points.");
+  score += 20;
+  console.log("You save the day by alerting that a gator was looking for a snack in the dog park. You saved your friends! +20 points.")
+  picnic();
+}
+};
+
+var park = function() {
+var parkChoice = prompt("You LOVE going to the park. So many smells! You look around and have to decide what to do first. There's a pond, many other dogs to play with and *GASP* what's that? It looks like a hole in the fence! Where do you go first: POND, DOGS, or FENCE?") .toLowerCase();
+if (parkChoice = parkAct[0]) {
+  pond();
+}else if (parkChoice = parkAct[1]) {
+  alert("You trot over to a group of dogs to say hello. SO MANY! Some of them are playing catch, others are just sunbathing. You head over to join the sunbathers.")
+   marmaduke();
+}else if (parkChoice = parkAct[2]) {
+   alert("You squeeze through the hole in the fence. -10pts.");
+   console.log("You escape like a prisoner from Alcatraz. - 10 points.");
+   score -=10;
+   run();
+ }
+ };
 
 var beach = function() {
   var beachPrompt = prompt("You arrive at the beach, one of your favorite places! You are walking along and find a jellyfish. Do you EAT it or IGNORE it?") .toLowerCase();
@@ -76,20 +144,19 @@ console.log("You barely get a carrot before the humans take away your snack and 
 var vet = function() {
   alert("You are in the car against your will. You whine and bark but humans are oblivious to your distraction attempts. You reluctantly accept that humans have their own plan.  Then you realize the mean humans have taken you to THE VET! Your day is ruined. After the vet, you go home and sulk. Game over!");
   console.log("You end up at the vet. Game Over!");
-  if (score < 20 ) {
+  if (score < 10 ) {
     alert("You scored less that 20 points. This earned you a dinner of plain, dry dog food and no treats. Better luck next time.")
     prompt("Try again?")
-    mode;
-  }else if (20 < score < 70 ) {
+
+  }else if (10 < score < 20 ) {
     alert("You were a pretty good dog today. The Humans reward you with a piece of cheese in your dinner.")
     prompt("Try again?")
-    mode;
-  } else if (score < 70) {
+
+  } else if (score > 20) {
     alert("You made your Humans so proud today. Man human sneaks a piece of steak into your dinner.")
-  mode;
   }
   return
-}
+};
 
 var outToSea = function() {
   alert("You run into the ocean, splashing about. Then suddenly you get caught in a riptide. Miraculously, you stay afloat for days and end up living a long and happy life on a tiny island in the Atlantic.")
@@ -97,40 +164,32 @@ var outToSea = function() {
 if (score < 20 ) {
   alert("You scored less that 20 points. This earned you a dinner of plain, dry dog food and no treats. Better luck next time.")
   prompt("Try again?")
-  mode;
 }else if (20 < score < 70 ) {
   alert("You were a pretty good dog today. The Humans reward you with a piece of cheese in your dinner.")
   prompt("Try again?")
-  mode;
-} else if (score < 70) {
+} else if (score > 70) {
   alert("You made your Humans so proud today. Man human sneaks a piece of steak into your dinner.")
-  mode;
 }
   return
-}
+};
 var marmaduke =function() {
-  alert("You turn and look to your left and there is a dog like you have never seen before! He is a handsome Great Dane named Marmaduke. Your humans let you say hello and the two of you walk off together and live happily ever after. <3 The end.")
+  alert("You turn and look to your left and there is a dog like you have never seen before! He is a handsome Great Dane named Marmaduke. You say hello and the two of you walk off together and live happily ever after. <3 The end.")
   console.log("You live happily ever after with Marmaduke");
   if (score < 20 ) {
     alert("You scored less that 20 points. This earned you a dinner of plain, dry dog food and no treats. Better luck next time.")
     prompt("Try again?")
-    mode;
   }else if (20 < score < 70 ) {
     alert("You were a pretty good dog today. The Humans reward you with a piece of cheese in your dinner.")
     prompt("Try again?")
-    mode;
-  } else if (score < 70) {
+  } else if (score >70) {
     alert("You made your Humans so proud today. Man human sneaks a piece of steak into your dinner.")
     prompt("Try again?")
-    mode;
   }
   return
-}
-
+};
 //easy mode
 var ember =function() {
   //ember story here
-  //var beginEmber = prompt("dfjhg;ering");
   var beginEmber = prompt( "It is a Saturday morning and your humans are home.They look at you and ask, 'Would you like to go in the car?'Do you want to go with the humans: YES or NO?") .toLowerCase();
   if (beginEmber === "yes") {
     console.log("You LOVE the car! You run around the house in celebration of your upcoming adventure.")
@@ -141,27 +200,24 @@ var ember =function() {
     console.log("You want to take a nap, but humans make you leave anyway.")
     score -= 10;
     vet()
-}
+  }
 };
 
 //hard mode
 var billie = function() {
   //billie here
   //var beginBillie = prompt("dfjhg;ering");
-  var ride = prompt( "Do you want to go with the humans: YES or NO?");
-  if (ride.toUpperCase === "yes") {
-    score += 10;
-  } else if (ride.toUppercase === "no") {
+  var beginBillie = prompt( "It is a Saturday morning and your humans are home. They look at you and ask, 'Would you like to go in the car?Do you want to go with the humans: YES or NO?") .toLowerCase();
+  if (beginBillie === "yes") {
+    pick();
+  } else if (beginBillie === "no") {
     score -= 10;
+    vet();
   } else {
     prompt("Please answer 'Yes' or 'No'.")
   }
 };
-
 //start game play //
-
-var begin= confirm("Welcome! Are you ready to begin?");
-
 var mode = prompt("Pick a character: EMBER (easy) or BILLIE? (difficult)") .toLowerCase();
 if (mode === "ember") {
   score = 10
@@ -169,7 +225,7 @@ if (mode === "ember") {
   console.log("You are Ember, a 7 year old perfectly behaved retired racing greyhound.");
   ember();
 } else if(mode === "billie") {
-  score= 0
+  score-=5
   console.log("You are Billie, a 5 year old mischevious retired racing greyhound.");
   billie();
-}
+};
