@@ -1,0 +1,204 @@
+$red: #B4292E;
+$ltblue: #6A8DC7;
+$darkblue: #445897;
+$yellow: #CC8F32;
+
+@mixin shadow() {
+  box-shadow: 2px 2px 3px #6A6B6B;
+}
+
+@mixin border() {
+  border: 7px solid white;
+}
+
+* {
+  border: 1px solid \\\$darkblue;
+}
+body{
+ background: url('images/bg.jpg');
+ width: 100%;
+ height: 100%;
+ padding: 0;
+ margin: 0;
+ }
+
+ aside {
+   height: 100%;
+   width: 100%;
+   padding: 300px 0 0 0;
+   float: left;
+   display: inline-block;
+   p{
+     height: 50px;
+     width: 100px;
+     vertical-align: center;
+     color: white;
+     background: $red;
+     display: inline-block;
+    .after {
+      height: 50px;
+      width: 30px;
+      background: $red;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      @include shadow ();
+    }
+   }
+ }
+
+.connect {
+  position: relative;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  ul {
+    width: 50%;
+    float: right;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      a{
+        float: right;
+        text-decoration: none;
+        width: 30px;
+        height: 30px;
+      .fa fa-facebook, {
+        @include shadow();
+
+      }
+
+    }
+  }
+
+}}
+nav{
+  display: block;
+  ul {
+      width: 50%;
+      margin: 0 25% 0 25%;
+      display: block;
+    li{
+      background: $red;
+      display: inline-block;
+      margin: 0;
+      color: white;
+      a{
+
+      }
+    }
+  }
+}
+aside {
+  width:25%;
+  float: left;
+  display: inline-block;
+}
+.wrapper {
+  position: absolute;
+  width: 50%;
+  margin: 0 25% 0 0;
+  display: inline-block;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  .photo {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    @include border();
+    @include shadow();
+  }
+  img {
+    width: 120%;
+    height: 200%;
+    overlay: url'grid.png';
+    .dots{
+      li{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 100%;
+      }
+    }
+  }
+
+}
+
+.center {
+  .artwrap{
+    width: 100%;
+    height: 200px;
+  article {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 0 1% 0 1%;
+    background: white;
+    @include shadow();
+  }
+  }
+}
+.photowrap {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 10px 0 10px 0;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      height: 400px;
+      p {
+
+      }
+    }
+  }
+.lance {
+    background: url('images/sk8er-4.png');
+    repeat: none;
+    @include border();
+    @include shadow();
+  }
+  .rodney{
+    background: url('images/sk8er-3.png');
+    repeat: none;
+    @include border();
+    @include shadow();
+  }
+    .steve{
+    background: url('images/sk8er-1.png');
+    repeat: none;
+    @include border();
+    @include shadow();
+  }
+  .tommy {
+    display: inline-block;
+    background: url('images/sk8er-2.png');
+    @include border();
+    @include shadow();
+  }
+
+
+.imgrow {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 10px 2px 10px 2px;
+  @include shadow();
+    img{
+      background: white;
+      width: 7%;
+      height: 100%;
+      float: left;
+      margin: 0 1.5% 0 1.5%;
+      padding: 0;
+      display: inline-block;
+    }
+}
+
+.webform {
+  display: block;
+}

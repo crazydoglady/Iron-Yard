@@ -27,16 +27,26 @@ if (runPrompt ==="run"){
   alert("You come back to human with tail between your legs. Human gives you a hug and says 'Good Dog' for listening and not getting lost. You walk together towards your destination. +15points")
   score +=15;
   picnic();
+} else if (runPrompt === "Listen" & pick === destination[2]) {
+  alert("Human gives you a pat on the head, picks up the leash and you walk into the store together. You run straight for the treats! +10 points");
+  marmaduke();
 }
 };
 
 var pick = function() {
    var choice = prompt(" Humans load you in the car and start to pull out of the driveway. Human asks 'Where do you want to go?' Oh the sweet taste of freedom! Do you choose the BEACH, PARK or STORE ?") .toLowerCase();
    if (choice === destination[0]) {
-      alert("The Humans turn in the direction towards the beach.");
+    alert("The Humans turn in the direction towards the beach.");
+    score +=5
     beach();
-  } else if (choice === destination[1]) {
+} else if (choice === destination[1]) {
+    alert("You can't wait to go to the dog park! You haven't seen your friends in a while and could use a good run or dig in the sand.")
+    score +=5
     park();
+} else if (choice === destination[2]) {
+  alert("You love to go shopping! You dream of a new toy or a tasty treat as your human sets off to the pet store. +5 points")
+  score+=5;
+  run();
 }
 };
 
@@ -48,7 +58,8 @@ if (picnicPrompt === "food") {
   vet();
 } else if (picnicPrompt ==="dog") {
   alert("You wander through the picnic and make a few human friends. Someone scratches your back in just the right place and your leg starts tapping. You could stay here forever!");
- marmaduke();
+  score +=10;
+  marmaduke();
  }
 };
 
@@ -69,15 +80,17 @@ if (gatorPrompt === "look") {
 
 var park = function() {
 var parkChoice = prompt("You LOVE going to the park. So many smells! You look around and have to decide what to do first. There's a pond, many other dogs to play with and *GASP* what's that? It looks like a hole in the fence! Where do you go first: POND, DOGS, or FENCE?") .toLowerCase();
-if (parkChoice = parkAct[0]) {
+if (parkChoice === parkAct[0]) {
+  score+=10;
   pond();
-}else if (parkChoice = parkAct[1]) {
+}else if (parkChoice === parkAct[1]) {
   alert("You trot over to a group of dogs to say hello. SO MANY! Some of them are playing catch, others are just sunbathing. You head over to join the sunbathers.")
+  score+=10;
    marmaduke();
-}else if (parkChoice = parkAct[2]) {
+}else if (parkChoice === parkAct[2]) {
    alert("You squeeze through the hole in the fence. -10pts.");
    console.log("You escape like a prisoner from Alcatraz. - 10 points.");
-   score -=10;
+   score-=10;
    run();
  }
  };
@@ -96,6 +109,13 @@ var beach = function() {
   vet();
 }
 };
+
+var store = function() {
+  alert("You arrive at the store and leap from the car with such enthusiasm Human drops the leash. Do you RUN or WAIT?");
+
+
+  score+=5;
+}
 
 var waves = function() {
   var wavePrompt = prompt("You keep walking; enjoying the lovely day out with the smell of pluff mud strong in the breeze. The sun comes out from behind the clouds and you start to feel a bit warm. The waves are big and a little scary, but you know it will cool you down. Do you SWIM or STAY?") .toLowerCase();
@@ -131,7 +151,7 @@ console.log("The tourist-human has food!");
 if (touristPrompt ==="carrots")  {
 alert("You barely crunch into the first carrot, and your Human yells and apologizes to the tourist. Tourist laughs and pats you on the head. You are taken away from your snack and continue on the beach.")
 console.log("You barely get a carrot before the humans take away your snack and force you to keep walking. You approach the dunes at the end of the beach and are secretly relieved that the walk seems to be ending.")
-  score+=0;
+  score+=5;
   marmaduke();
 }else if (touristPrompt ==="chocolate") {
   alert("Nom Nom. Now you know why humans sneak chocolate into the house and are secretly resentful that they never share with you. Humans suddenly start yelling and dragging you back towards the car. You pull the other way, wanting to continue your walk. -20points")
