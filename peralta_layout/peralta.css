@@ -75,32 +75,15 @@ nav {
       color: white;
       box-shadow: 2px 2px 3px #6A6B6B; }
 
-aside {
-  height: 100%;
-  width: 25%;
-  padding: 300px 0 0 0;
-  float: left;
-  display: inline-block; }
-  aside p {
-    height: 50px;
-    width: 100px;
-    vertical-align: center;
-    color: white;
-    background: #B4292E;
-    display: inline-block; }
-
-.wrapper, .boardwrap {
-  width: 50%;
-  display: inline-block;
-  margin: 0 25% 0 25%; }
-
 .top {
-  position: absolute;
+  position: relative;
+  display: block;
   width: 50%;
   height: 350px;
   border: 7px solid white;
   box-shadow: 2px 2px 3px #6A6B6B;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 25% 0 25%; }
 
 .topimg {
   position: absolute;
@@ -167,26 +150,23 @@ span {
           color: #B4292E; }
 
 .photowrap {
-  position: absolute;
   height: 100%;
-  width: 100%;
-  list-style-type: none; }
-  .photowrap aside {
-    width: 25%;
-    float: left;
-    display: inline-block; }
-    .photowrap aside ul {
-      width: 66%;
-      padding: 0;
-      display: inline-block;
+  width: 75%;
+  list-style-type: none;
+  display: inline-block; }
+  .photowrap ul {
+    width: 60%;
+    margin: 0 0 0 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden; }
+    .photowrap ul li {
+      margin: 8px;
       list-style-type: none;
-      overflow: hidden; }
-      .photowrap aside ul li {
-        margin: 8px;
-        list-style-type: none;
-        display: inline-block;
-        border: 7px solid white;
-        box-shadow: 2px 2px 3px #6A6B6B; }
+      display: inline-block;
+      border: 7px solid white;
+      box-shadow: 2px 2px 3px #6A6B6B; }
 
 .lance {
   background: url('images/sk8er-4.png') no-repeat;
@@ -223,6 +203,20 @@ span {
   background-size: 100% auto;
   border: 7px solid white;
   box-shadow: 2px 2px 3px #6A6B6B; }
+
+aside {
+  height: 100%;
+  width: 33%;
+  padding: 0 0 0 0;
+  float: left;
+  display: inline-block; }
+  aside p {
+    height: auto;
+    width: 100%;
+    vertical-align: center;
+    color: white;
+    background: #B4292E;
+    display: inline-block; }
 
 .imgrow {
   background: white;
