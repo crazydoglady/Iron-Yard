@@ -5,6 +5,7 @@ $yellow: #CC8F32;
 $grey: #6A6B6B;
 $gradient: linear-gradient(rgba(15,17,17,0.6), rgba(15,17,17,0.6));
 
+
 @mixin shadow() {
   box-shadow: 2px 2px 3px $grey;
 }
@@ -19,6 +20,9 @@ $gradient: linear-gradient(rgba(15,17,17,0.6), rgba(15,17,17,0.6));
   color: $grey;
 }
 /* BEGIN STYLING */
+* {
+  border: 1px solid $ltblue;
+}
 body{
   width: 100%;
   height: 100%;
@@ -116,9 +120,8 @@ aside {
 
 .wrapper {
   width: 50%;
-  height: 1000px;
-  margin: 0 25% 0 0;
   display: inline-block;
+  margin: 0 25% 0 25%;
 }
   .top {
     position: absolute;
@@ -163,7 +166,10 @@ aside {
 .center {
     width: 100%;
     height: 200px;
-    margin: 375px 0 0 0;
+  }
+
+  .artwrap {
+  width: 100%;
   article {
     display: inline-block;
     width: 32%;
@@ -171,8 +177,7 @@ aside {
     margin: 0 auto;
     background: white;
     @include shadow();
-  }
-  }
+}}
 
   .dots{
     position: relative;
@@ -199,8 +204,12 @@ aside {
 .photowrap {
   position: absolute;
   height: 100%;
-  width: 50%;
+  width: 100%;
   list-style-type:none;
+  aside {
+    width: 25%;
+    float: left;
+    display: inline-block;
   ul {
     width: 66%;
     padding:0;
@@ -215,7 +224,7 @@ aside {
     @include shadow();
     }
   }
-}
+}}
 .lance {
     background: url('images/sk8er-4.png') no-repeat;
     background-position: 3px 3px;
@@ -224,10 +233,6 @@ aside {
     height: 275px;
     margin: 0 auto;
     padding: 0;
-    img {
-      width: 100%;
-      height: 100%;
-    }
   }
   .rodney{
     background: url('images/sk8er-3.png') no-repeat;
@@ -236,9 +241,6 @@ aside {
     width: 45%;
     height: 275px;
     margin: 0 auto;
-    img {
-      width: 100%;
-    }
   }
     .steve{
     background: url('images/sk8er-1.png') no-repeat;
@@ -258,9 +260,9 @@ aside {
       background-size: 100% auto;
       @include border();
       @include shadow();
-      img {
-        width: 100%;
-      }
+  }
+  .boardwrap{
+    @extend .wrapper;
   }
 
   .imgrow {
@@ -269,7 +271,6 @@ aside {
     display: block;
     width: 50%;
     height: 250px;
-    margin: 0;
     padding: 10px 2px 10px 2px;
     @include shadow();
     img{
