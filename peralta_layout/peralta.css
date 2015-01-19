@@ -174,14 +174,16 @@ span {
     list-style-type: none;
     overflow: hidden; }
     .photowrap ul li {
+      margin: 8px;
       list-style-type: none;
       display: inline-block;
       border: 7px solid white;
       box-shadow: 2px 2px 3px #6A6B6B; }
 
 .lance {
-  background: url('images/sk8er-4.png');
+  background: url('images/sk8er-4.png') no-repeat;
   background-position: 3px 3px;
+  background-size: 100% auto;
   width: 45%;
   height: 275px;
   margin: 0 auto;
@@ -191,7 +193,8 @@ span {
     height: 100%; }
 
 .rodney {
-  background: url('images/sk8er-3.png');
+  background: url('images/sk8er-3.png') no-repeat;
+  background-size: 100% auto;
   repeat: none;
   width: 45%;
   height: 275px;
@@ -200,20 +203,21 @@ span {
     width: 100%; }
 
 .steve {
-  background: url('images/sk8er-1.png');
+  background: url('images/sk8er-1.png') no-repeat;
+  background-size: 100% auto;
   repeat: none;
-  width: 93%;
-  height: 275px; }
-  .steve img {
-    width: 100%; }
+  width: 95%;
+  height: 275px;
+  margin: 4px 4px 0 0; }
 
 .tommy {
   vertical-align: top;
   position: absolute;
   width: 33%;
-  height: 555px;
+  height: 575px;
   display: inline-block;
-  background: url('images/sk8er-2.png');
+  background: url('images/sk8er-2.png') no-repeat;
+  background-size: 100% auto;
   border: 7px solid white;
   box-shadow: 2px 2px 3px #6A6B6B; }
   .tommy img {

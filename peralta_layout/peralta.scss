@@ -208,6 +208,7 @@ aside {
     list-style-type: none;
     overflow: hidden;
     li{
+    margin: 8px;
     list-style-type: none;
     display: inline-block;
     @include border();
@@ -216,8 +217,9 @@ aside {
   }
 }
 .lance {
-    background: url('images/sk8er-4.png');
+    background: url('images/sk8er-4.png') no-repeat;
     background-position: 3px 3px;
+    background-size: 100% auto;
     width: 45%;
     height: 275px;
     margin: 0 auto;
@@ -228,7 +230,8 @@ aside {
     }
   }
   .rodney{
-    background: url('images/sk8er-3.png');
+    background: url('images/sk8er-3.png') no-repeat;
+    background-size: 100% auto;
     repeat: none;
     width: 45%;
     height: 275px;
@@ -238,21 +241,21 @@ aside {
     }
   }
     .steve{
-    background: url('images/sk8er-1.png');
+    background: url('images/sk8er-1.png') no-repeat;
+    background-size: 100% auto;
     repeat: none;
-    width: 93%;
+    width: 95%;
     height: 275px;
-    img {
-      width: 100%;
-    }
+    margin: 4px 4px 0 0;
   }
 .tommy{
       vertical-align: top;
       position: absolute;
       width: 33%;
-      height: 555px;
+      height: 575px;
       display: inline-block;
-      background: url('images/sk8er-2.png');
+      background: url('images/sk8er-2.png') no-repeat;
+      background-size: 100% auto;
       @include border();
       @include shadow();
       img {
