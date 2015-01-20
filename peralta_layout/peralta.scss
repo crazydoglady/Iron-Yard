@@ -29,9 +29,12 @@ body{
   width: 100%;
   height: 100%;
   background: $gradient, url('images/bg.jpg') no-repeat ;
-  background-size: 100%;
+  background-size: 110%;
   font-family: $font;
 }
+.wrapper{
+  width: 50%;
+  margin: 0 20% 0 22%}
 
 h3 {
   font-size:18px;
@@ -45,8 +48,7 @@ h3 {
 
 /* header */
 header {
-  width: 50%;
-  margin: 0 25% 0 25%;
+  width: 100%;
   height: 150px;
 }
 .connect {
@@ -100,12 +102,11 @@ nav{
   .top {
     position: relative;
     display:block;
-    width: 50%;
+    width: 100%;
     height: 350px;
     @include border();
     @include shadow();
     overflow: hidden;
-    margin: 0 25% 0 25%;
   }
   .topimg{
     position: absolute;
@@ -145,14 +146,13 @@ nav{
   }
 
   .artwrap {
-  width: 51%;
-  margin: 0 25% 0 25%;
+  width: 100%;
   position: relative;
   article {
     display: inline-block;
     vertical-align: top;
-    width: 32%;
-    height: 300px;
+    width: 30%;
+    height: 100%;
     margin: 0 4px 0 3px;
     background: white;
     @include shadow();
@@ -214,16 +214,14 @@ nav{
     }
 .photowrap {
   height: 100%;
-  width: 50%;
+  width: 100%;
   list-style-type:none;
   display: inline-block;
-  margin: 10px 0 0 0;
   a{
     text-decoration: none;
-    @include border();
   h2 {
     position: relative;
-    font-size: 48px;
+    font-size: 36px;
     text-wrap: break-word;
     color: white;
     font-family: $font;
@@ -232,17 +230,18 @@ nav{
   }}}
 
   .leftphotos {
-    width: 66%;
+    width: 64%;
+    height: 330px;
     display: inline-block;
   }
 
 .lance {
 background: url('images/sk8er-4.png') no-repeat;
-background-position: -25px 0;
-background-size: 110%;
+background-position: 0 0;
+background-size: 130%;
     overflow: hidden;
-    width: 47%;
-    height: 250px;
+    width: 45%;
+    height: 163px;
     padding: 0;
     display: inline-block;
     @include border();
@@ -250,10 +249,10 @@ background-size: 110%;
   }
   .rodney{
   background: url('images/sk8er-3.png') no-repeat;
-  background-size: 110% auto;
-  background-position: -35px 0;
-    width: 47%;
-    height: 250px;
+  background-size: 125% ;
+  background-position: 0 0;
+    width: 45%;
+    height: 163px;
     overflow: hidden;
     display: inline-block;
     @include border();
@@ -262,30 +261,31 @@ background-size: 110%;
 
   .steve{
     background: url('images/sk8er-1.png') no-repeat;
-    background-size: 110% auto;
-    background-position: 0px -140px;
-    width: 98%;
-    height: 250px;
+    background-size: 115%;
+    background-position: 0px 57%;
+    width: 94%;
+    height: 163px;
     overflow: hidden;
     display: inline-block;
     @include border();
     @include shadow();
   }
 
-  .tommy{
-    float: right;
-    vertical-align: middle;
+  .rightpht{
+    width: 33%;
     display: inline-block;
-    background: url('images/sk8er-2.png') no-repeat;
-    background-size: 225% auto;
-    background-position: -386px 0;
-    width: 32%;
-    height: 514px;
     overflow: hidden;
     @include border();
-    @include shadow();
-    display: inline-block;
+    @include shadow
   }
+    .tommy{
+      background: url('images/sk8er-2.png') no-repeat;
+      background-size: 260%;
+      background-position: 84% 0;
+      height: 340px;
+      width: 100%;
+      display: inline-block;
+    }
 
   aside {
     height: 125px;
@@ -319,8 +319,8 @@ background-size: 110%;
     }
 
   .boardwrap{
-    width: 50%;
-    margin: 0 25% 0 25%;
+    width: 100%;
+    margin: 3% 0 0 0;
   }
 
   .imgrow {
@@ -342,9 +342,42 @@ background-size: 110%;
     }
 }
 .webform {
-  width: 50%;
-  margin: 0 25% 0 25%;
+  width: 100%;
   background: white;
 }
 /* RESPONSIVE STUFF BELOW */
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1100px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
