@@ -232,16 +232,16 @@ nav{
   }}}
 
   .leftphotos {
-    width: 67%;
+    width: 66%;
     display: inline-block;
   }
 
 .lance {
-    background: url('images/sk8er-4.png') no-repeat;
-    background-position: -25px 0;
-    background-size: 110%;
+background: url('images/sk8er-4.png') no-repeat;
+background-position: -25px 0;
+background-size: 110%;
     overflow: hidden;
-    width: 48%;
+    width: 47%;
     height: 250px;
     padding: 0;
     display: inline-block;
@@ -249,10 +249,10 @@ nav{
     @include shadow();
   }
   .rodney{
-    background: url('images/sk8er-3.png') no-repeat;
-    background-size: 110% auto;
-    background-position: -35px 0;
-    width: 48%;
+  background: url('images/sk8er-3.png') no-repeat;
+  background-size: 110% auto;
+  background-position: -35px 0;
+    width: 47%;
     height: 250px;
     overflow: hidden;
     display: inline-block;
@@ -346,3 +346,5 @@ nav{
   margin: 0 25% 0 25%;
   background: white;
 }
+/* RESPONSIVE STUFF BELOW */
+@media screen and (max-width: 1200px) {}
