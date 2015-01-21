@@ -155,6 +155,7 @@ nav{
     height: 100%;
     margin: 0 4px 0 3px;
     background: white;
+    box-sizing: border-box;
     @include shadow();
 
     .dateline{

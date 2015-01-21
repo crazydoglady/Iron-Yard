@@ -139,6 +139,7 @@ span {
     height: 100%;
     margin: 0 4px 0 3px;
     background: white;
+    box-sizing: border-box;
     box-shadow: 2px 2px 3px #6A6B6B; }
     .artwrap article .dateline {
       display: block;
