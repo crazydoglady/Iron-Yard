@@ -24,8 +24,19 @@ article {
   display: none;
 }
 
+.sideNav {
+  float: left;
+  width: 20%;
+  display: block;
+  background: $red;
+}
+
+
+
 .active {
- display: block;
+ display: $inline;
+ width: 75%;
+ text-align: center;
 }
 
 .activeNav {

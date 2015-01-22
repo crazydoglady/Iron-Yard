@@ -1,6 +1,19 @@
 $(document).ready(function() {
+  $('aside').hide();
   // execute our javascript when the DOM has been loaded
+  $("nav a").click(function (event) {
+    event.preventDefault();
 
+    var relatedClass = "." + $(this).attr('rel');  // .post1 or .post2 or .post3
+
+    $(this).closest("li").siblings().removeClass("activeNav");
+    $(this).closest("li").addClass("activeNav");
+    $(relatedClass).siblings().removeClass("active");
+    $(relatedClass).addClass('active');
+
+    console.log(relatedClass);
+
+  });
 
 // our nav links
   // var $post1 = $('nav a').eq(0);
@@ -40,19 +53,3 @@ $(document).ready(function() {
   //   $('.post3').addClass('active');
   //
   // });
-
-
-   $("nav a").click(function (event) {
-     event.preventDefault();
-
-     var relatedClass = "." + $(this).attr('rel');  // .post1 or .post2 or .post3
-
-       $(this).closest("li").siblings().removeClass("activeNav");
-       $(this).closest("li").addClass("activeNav");
-       $(relatedClass).siblings().removeClass("active");
-       $(relatedClass).addClass('active');
-
-     console.log(relatedClass);
-
-
-   });

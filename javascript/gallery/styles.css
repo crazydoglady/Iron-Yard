@@ -11,8 +11,16 @@ body {
 article {
   display: none; }
 
+.sideNav {
+  display: none; }
+
 .active {
-  display: block; }
+  display: inline-block;
+  width: 75%;
+  text-align: center; }
+  .active img {
+    display: inline-block;
+    box-shadow: 3px 3px #6a6a61; }
 
 .activeNav {
   display: inline-block; }
