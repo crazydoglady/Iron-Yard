@@ -22,14 +22,28 @@ $(document).ready(function() {
       console.log(relatedClass);
 
       if(relatedClass === ".menu") {
-          $('.sideNav').hide();
+          $('aside').hide();
           console.log("hide");
         } else{
-          $('.sideNav').show();
+          $('aside').show();
           console.log("show");
         };
 
+      });
+
+$('img').click(function(event) {
+    event.preventDefault();
+    $(this).siblings().hide();
+    $(this).addClass("enlarge");
   });
+
+$('img .enlarge').click(function(event) {
+  event.preventDefault();
+  $(this).siblings().show();
+  $(this).removeClass("enlarge");
+
+});
+
 
 });
 
