@@ -1,0 +1,36 @@
+$teal : #142e32;
+$grey : #6a6a61;
+$beige : #958976;
+$red : #611427;
+$inline: inline-block;
+
+@mixin noBullets {
+  list-style-type: none;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  background: $grey;
+}
+
+.contentwrap {
+  width: 75%;
+  padding: 0;
+  margin: 0 12% 0 12%;
+}
+
+article {
+  display: none;
+}
+
+.active {
+ display: block;
+}
+
+.activeNav {
+  display: $inline;
+}
+.activeNav a {
+  color: black;
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #6a6a61; }
+
+.contentwrap {
+  width: 75%;
+  padding: 0;
+  margin: 0 12% 0 12%; }
+
+article {
+  display: none; }
+
+.active {
+  display: block; }
+
+.activeNav {
+  display: inline-block; }
+
+.activeNav a {
+  color: black; }

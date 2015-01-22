@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #505050;
+}
+header, footer {
+  display: block;
+  width: 100%;
+  background: #000;
+}
+
+section, aside {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: yellow;
+  width: 70%;
+}
+
+aside {
+  background-color: blue;
+  width: 23%;
+  display:inline-block;
+  vertical-align: top;
+}
+
+
+nav ul {
+ margin: 0;
+ padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  padding: 10px;
+  padding: 0;
+}
+
+nav a: hover {
+  background-color: red;
+}
+
+
+article{
+display: none;
+}
+
+active {
+  display: 
+}
