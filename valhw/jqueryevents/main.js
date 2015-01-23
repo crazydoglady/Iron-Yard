@@ -1,90 +1,83 @@
 $(document).ready(function() {
-
+//q1
   $(".circle").eq(0).click(function (event) {
     event.preventDefault();
     $(this).removeClass("circle");
     $(this).addClass("square");
     $(this).html("Star Wars: A New Hope");
+    $(this).css("background", "url('images/HanSolo.png')", "no-repeat");
   });
-
+//q2
   $(".square").eq(0).hover(function (event) {
         event.preventDefault();
         $(this).css("background", "red");
+        $(this).removeClass("circle");
+        $(this).addClass("square");
         $(this).html("The Congo");
-        console.log("Answer: The congo")
+        $(this).css("background", "url('images/congoriver.jpeg')", "no-repeat");
+        console.log("Answer: The congo");
   });
-
+//q3
   $(".circle").eq(1).find("select").change(function () {
-    console.log("Answer ? 2: Nicolas Cage");
-    $(this).css("background", "url('http://www.placecage.com/200/200')");
+    $(this).parent().css("background", "url('http://www.placecage.com/200/200')", "no-repeat");
+    $(this).parent().css("color", "transparent");
+    $(this).hide();
+    console.log("Answer: Nicolas Cage");
     // $(this)--make the text disappear?;
   });
-
+//q4
   $(".square").eq(1).dblclick(function(event) {
     event.preventDefault();
     $(this).html("Indonesia");
-    $(this).css("Background", "white")
-    console.log("Q3: Indonesia")
+    $(this).removeClass("circle");
+    $(this).addClass("square");
+    $(this).css("background", "url('images/indonesiaflag.png')", "no-repeat");
+    console.log("Q3: Indonesia");
 });
-
-  $(".circle").eq(2).on("click mouseout" function() {
+//q5
+  $(".circle").eq(2).mousedown(function() {
     event.preventDefault();
     $(this).html("John Lennon");
+    $(this).removeClass("circle");
+    $(this).addClass("square");
+    $(this).css("background", "url('images/johnlennon.jpg')", "no-repeat");
     console.log("Q4: John Lennon")
   });
-
-  $(".square").eq(2).change(function (change) {
+//q6
+  $(".square").eq(2).mouseout(function (event) {
     event.preventDefault();
-    $(this).css("background", "red");
-    console.log("??")
+    $(this).html("1986");
+    $(this).css("background", "url('images/zelda-1986.jpg')", "no-repeat");
+    console.log("1986")
   });
-  $(".circle").eq(3).click(function (blur) {
+
+//q7
+  $(".circle").eq(3).mouseup(function (event) {
     event.preventDefault();
     $(this).removeClass("circle");
     $(this).addClass("square");
+    $(this).html("Captain Morgan was a Welsh Pirate before being knighted");
+    $(this).css("background", "url('images/captainmorgan.jpeg')", "no-repeat");
   });
-
+//q8
   $(".square").eq(3).mouseover(function (event) {
-    $(this).css("opacity", ".5");
+    $(this).html("A Boy Named Sue");
+    $(this).css("background", "url('images/album.jpg')", "no-repeat");
   });
-
-  $(".circle").eq(4).on(function (keydown) {
+//q9
+  $(".circle").eq(4).mouseout(function (event) {
     event.preventDefault();
     $(this).removeClass("circle");
     $(this).addClass("square");
-  });
-
-  $(".square").eq(4).keydown(function () {
-    event.preventDefault();
     $(this).html("40, 'f-o-r-t-y'");
   });
 
+//q10
   $("body").on("click","button", function () {
-    $(this).siblings().css("background-color", "white");
+    $(this).parent().css("background", "url('images/prii.jpg')", "no-repeat");
+    $(this).parent().html("Prii");
+    $(this).hide();
   });
-
-
-
-
-
-
-
-//pepper image from https://www.painscience.com/articles/palpatory-pareidolia.php")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
