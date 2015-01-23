@@ -1,43 +1,67 @@
-$(document).ready(function(){
-$(".box").eq(0).click(function (event) {
-  event.preventDefault();
-  $(this).css("background-color", "blue");
+$(document).ready(function () {
+  // all code that is dom dependent lives here
+
+
+  // events
+
+  // shorthand
+  $(".box").eq(0).click(function (event) {
+    event.preventDefault();
+    $(this).css("background-color", "blue");
+
+  });
+
+  $(".box").eq(1).find("select").change(function () {
+    console.log("change working");
+    $(this).closest(".box").css("background-color", "green");
+
+  });
+  $(".box").eq(2).dblclick(function (event) {
+    event.preventDefault();
+    console.log("double click");
+
+    $(this).css({"transform": "scale(2.5)", "background-color ": "black"});
+
+  });
+
+  $(".box").eq(3).hover(function (event) { // MOUSEOVER
+    event.preventDefault();
+
+    $(this).css("transform", "scale(0.5)");
+
+  }, function (event) { // MOUSEOUT
+    $(this).css("transform", "scale(1.5)");
+  });
+
+  $(".box").eq(4).mouseover(function (event) {
+    $(this).css("opacity", ".5");
+  });
+
+  $(".box").eq(5).mouseout(function (event) {
+    $(this).css("opacity", ".5");
+  });
+
+
+  $(".box").eq(6).on("click mouseout", function () {
+    console.log("hi ya'll");
+  });
+
+
+  $("body").on("click","button", function () {
+    $(this).siblings().css("background-color", "white");
+  });
+
+
+  // $(domElement-parent).on(event, target, callback); - event delegation
+
+  // $(domElement-target).on(event, callback); - non delegated
+
+
+
+
+
 
 });
-
-$(".box select").eq(1).change(function (){ //doesnt need prevent default because there isn't a default action associated with HTML element
-  $(this).closest(".box").css("background-color", "green");
-
-});
-
-$(".box").eq(2).dblclick(function(event) {
-  event.preventDefault();
-  $(this).css({"transform": "scale(2.5)", "background-color": "black"});
-
-});
-
- $(".box").eq(3).hover(function(event) { //mouseover automatic with hover
-  event.preventDefault();
-  $(this).css("transform", "scale(0.5)");
-}, function(event) {      //mouseout automatic when added to hover function?
-  $(this).css("transform", "scale(1.5)");
-}
-
-);
-
-$(".box").eq(4).hover(function(event) { //mouseover
-  event.preventDefault();
-  $(this).css("opacity", "(0.5)");
-}, function(event) {      //mouseout
-  $(this).css("opacity", "(1.0)");
-}
-
-);
-
-$(".box").eq(5).on("click mouseout", function() {
-  console.log("hi ya'll");
-});
-
 
 
 

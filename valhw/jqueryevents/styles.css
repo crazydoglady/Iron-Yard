@@ -1,0 +1,35 @@
+
+body{
+margin:0;
+padding: 0;
+}
+
+.container{
+  width: 62%;
+  margin: 1% 19% 0 19%;
+  background: grey;
+}
+div {
+  vertical-align: top;
+}
+
+h2 {
+  font-size: white;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: inline-block;
+  background: #17719b;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background: #bf8c0d;
+}
