@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(this).removeClass("circle");
     $(this).addClass("square");
     $(this).html("Star Wars: A New Hope");
-    $(this).css("background", "url('images/HanSolo.png')", "no-repeat");
+    $(this).css("background", "url('images/HanSolo.png')");
   });
 //q2
   $(".square").eq(0).hover(function (event) {
@@ -14,7 +14,7 @@ $(document).ready(function() {
         $(this).removeClass("circle");
         $(this).addClass("square");
         $(this).html("The Congo");
-        $(this).css("background", "url('images/congoriver.jpeg')", "no-repeat");
+        $(this).css("background", "url('images/congoriver.jpeg')");
         console.log("Answer: The congo");
   });
 //q3
@@ -23,7 +23,6 @@ $(document).ready(function() {
     $(this).parent().css("color", "transparent");
     $(this).hide();
     console.log("Answer: Nicolas Cage");
-    // $(this)--make the text disappear?;
   });
 //q4
   $(".square").eq(1).dblclick(function(event) {
@@ -31,7 +30,7 @@ $(document).ready(function() {
     $(this).html("Indonesia");
     $(this).removeClass("circle");
     $(this).addClass("square");
-    $(this).css("background", "url('images/indonesiaflag.png')", "no-repeat");
+    $(this).css("background", "url('images/indonesiaflag.png')");
     console.log("Q3: Indonesia");
 });
 //q5
@@ -40,14 +39,14 @@ $(document).ready(function() {
     $(this).html("John Lennon");
     $(this).removeClass("circle");
     $(this).addClass("square");
-    $(this).css("background", "url('images/johnlennon.jpg')", "no-repeat");
+    $(this).css("background", "url('images/johnlennon.jpg')");
     console.log("Q4: John Lennon")
   });
 //q6
-  $(".square").eq(2).mouseout(function (event) {
+  $(".square").eq(2).mouseenter(function() {
     event.preventDefault();
     $(this).html("1986");
-    $(this).css("background", "url('images/zelda-1986.jpg')", "no-repeat");
+    $(this).css("background", "url('images/zelda-1986.jpg')");
     console.log("1986")
   });
 
@@ -57,24 +56,24 @@ $(document).ready(function() {
     $(this).removeClass("circle");
     $(this).addClass("square");
     $(this).html("Captain Morgan was a Welsh Pirate before being knighted");
-    $(this).css("background", "url('images/captainmorgan.jpeg')", "no-repeat");
+    $(this).css("background", "url('images/captainmorgan.jpeg')");
   });
 //q8
-  $(".square").eq(3).mouseover(function (event) {
+  $(".square").eq(3).mouseout(function (event) {
     $(this).html("A Boy Named Sue");
-    $(this).css("background", "url('images/album.jpg')", "no-repeat");
+    $(this).css("background", "url('images/album.jpg')");
   });
 //q9
-  $(".circle").eq(4).mouseout(function (event) {
+$("form").submit(function( event ) {
     event.preventDefault();
-    $(this).removeClass("circle");
-    $(this).addClass("square");
-    $(this).html("40, 'f-o-r-t-y'");
+    $(this).parent().css("background", "url('images/forty.png')");
+    $("form").hide();
   });
 
 //q10
   $("body").on("click","button", function () {
-    $(this).parent().css("background", "url('images/prii.jpg')", "no-repeat");
+    $(this).parent().css("background", "url('images/prii.jpg')");
+    $(this).parent().css("color", "white");
     $(this).parent().html("Prii");
     $(this).hide();
   });
