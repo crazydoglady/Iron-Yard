@@ -26,23 +26,22 @@ var mark = {
   finishingTime5: 97.5
 };
 
-function getAverageTime(person) {
-  var times = [];
-  for (var i in person) {
-    var value = person [i];
-    times.push(person [i]);
-  }
+var totalTime = 0;
 
-  var totalTime = 0;
-  for (var i=0; i < times.length; i++) {
-    totalTime += times[i];
-  }
-  return (totalTime / times.length);
+function  getAverageTime (person) {
+   var times = Object.keys(person);
+   times.forEach( function (element, index, array){
+     totalTime += person[array[index]];
+
+   });
+
+   return (totalTime / times.length);
 };
 
-console.log(getAverageTime(matt));
-console.log(getAverageTime(mark));
-
+// for (var i=0; i < times.length; i++) {
+//   totalTime += times[i];
+// }
+// return (totalTime / times.length);
 
 //Part 3---------------------------------------------------------
 var MattsBankAccount = {
