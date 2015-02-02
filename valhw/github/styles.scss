@@ -1,0 +1,145 @@
+$grey: #BBBBBB;
+$blue: #4183C4;
+$dkgrey: #666666;
+$inline: inline-block;
+$font: helvetica, sans-serif;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+li{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+h1 {
+  color: black;
+  font-family: arial, sans-serif;
+}
+h2{
+  color: $blue;
+}
+h3{
+  color: $grey;
+
+}
+h4{
+  color: black;
+  font-weight: bold;
+}
+h5{
+  color: $dkgrey;
+}
+h6{
+  color: $grey;
+}
+
+header {
+  background: $grey;
+  width: 100%;
+  min-height: 75px;
+  max-height: 150px;
+  nav {
+    background: $grey;
+  }
+  ul {
+    display: $inline;
+    background: $grey;
+    li{
+      list-style-type: none;
+      display: $inline;
+      background: $grey;
+    }
+  }
+}
+
+.searchbar {
+  float: left;
+}
+.taskbar {
+  float: right;
+}
+.repos {
+  width: 60%;
+  margin: 0 0 0 0;
+  display: $inline;
+  article{
+    min-height: 50px;
+    bottom-border: 1px solid $grey;
+  }
+}
+.menu {
+  ul{
+    li{
+      display: $inline;
+      a{
+        display:$inline;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.repoSearchBar {
+  ul{
+    display: $inline;
+    li {
+      display: $inline;
+    }
+  }
+}
+article {
+  h2{
+    color: $blue;
+  }
+}
+
+aside {
+  width: 20%;
+  margin: 0 0 0 19%;
+  float: left;
+  display: $inline;
+  img{
+    width:230px;
+    height: 230px;
+    border-radius: 20px;
+  }
+}
+footer {
+  position: relative;
+
+  width: 100%;
+  min-height: 50px;
+  max-height: 100px;
+}
+
+.foot1, .foot2 {
+  display: $inline;
+  width: 28%;
+  ul{
+  display: $inline;
+  li{
+    display: $inline;
+    a{
+      text-decoration: none;
+    }
+  }}
+}
+
+.octicon {
+  color: $dkgrey;
+}
+
+.activity {
+  display: none;
+}
+
+.inactive {
+  display: none;
+}

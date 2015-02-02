@@ -1,0 +1,1475 @@
+//events data https://api.github.com/users/crazydoglady/events
+
+var eventsData = [
+{
+"id": "2545680762",
+"type": "PullRequestEvent",
+"actor": {
+  "id": 8411222,
+  "login": "crazydoglady",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/crazydoglady",
+  "avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+  "id": 30031120,
+  "name": "TIY-Charleston-Front-End-Jan2015/theDOMinators",
+  "url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators"
+},
+"payload": {
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1",
+    "id": 28303455,
+    "html_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators/pull/1",
+    "diff_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators/pull/1.diff",
+    "patch_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators/pull/1.patch",
+    "issue_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/1",
+    "number": 1,
+    "state": "open",
+    "locked": false,
+    "title": "initial commit for group project",
+    "user": {
+      "login": "crazydoglady",
+      "id": 8411222,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8411222?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crazydoglady",
+      "html_url": "https://github.com/crazydoglady",
+      "followers_url": "https://api.github.com/users/crazydoglady/followers",
+      "following_url": "https://api.github.com/users/crazydoglady/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crazydoglady/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crazydoglady/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crazydoglady/subscriptions",
+      "organizations_url": "https://api.github.com/users/crazydoglady/orgs",
+      "repos_url": "https://api.github.com/users/crazydoglady/repos",
+      "events_url": "https://api.github.com/users/crazydoglady/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crazydoglady/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "... --- ...",
+    "created_at": "2015-01-29T18:42:06Z",
+    "updated_at": "2015-01-29T18:42:06Z",
+    "closed_at": null,
+    "merged_at": null,
+    "merge_commit_sha": null,
+    "assignee": null,
+    "milestone": null,
+    "commits_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1/commits",
+    "review_comments_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1/comments",
+    "review_comment_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/comments/{number}",
+    "comments_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/1/comments",
+    "statuses_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/statuses/5cebdf08d0d007d15fa3362d535d48d11b4bc699",
+    "head": {
+      "label": "crazydoglady:master",
+      "ref": "master",
+      "sha": "5cebdf08d0d007d15fa3362d535d48d11b4bc699",
+      "user": {
+        "login": "crazydoglady",
+        "id": 8411222,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8411222?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"html_url": "https://github.com/crazydoglady",
+"followers_url": "https://api.github.com/users/crazydoglady/followers",
+"following_url": "https://api.github.com/users/crazydoglady/following{/other_user}",
+"gists_url": "https://api.github.com/users/crazydoglady/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/crazydoglady/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/crazydoglady/subscriptions",
+"organizations_url": "https://api.github.com/users/crazydoglady/orgs",
+"repos_url": "https://api.github.com/users/crazydoglady/repos",
+"events_url": "https://api.github.com/users/crazydoglady/events{/privacy}",
+"received_events_url": "https://api.github.com/users/crazydoglady/received_events",
+"type": "User",
+"site_admin": false
+},
+"repo": {
+"id": 30034719,
+"name": "theDOMinators",
+"full_name": "crazydoglady/theDOMinators",
+"owner": {
+"login": "crazydoglady",
+"id": 8411222,
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"html_url": "https://github.com/crazydoglady",
+"followers_url": "https://api.github.com/users/crazydoglady/followers",
+"following_url": "https://api.github.com/users/crazydoglady/following{/other_user}",
+"gists_url": "https://api.github.com/users/crazydoglady/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/crazydoglady/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/crazydoglady/subscriptions",
+"organizations_url": "https://api.github.com/users/crazydoglady/orgs",
+"repos_url": "https://api.github.com/users/crazydoglady/repos",
+"events_url": "https://api.github.com/users/crazydoglady/events{/privacy}",
+"received_events_url": "https://api.github.com/users/crazydoglady/received_events",
+"type": "User",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/crazydoglady/theDOMinators",
+"description": "",
+"fork": true,
+"url": "https://api.github.com/repos/crazydoglady/theDOMinators",
+"forks_url": "https://api.github.com/repos/crazydoglady/theDOMinators/forks",
+"keys_url": "https://api.github.com/repos/crazydoglady/theDOMinators/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/crazydoglady/theDOMinators/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/crazydoglady/theDOMinators/teams",
+"hooks_url": "https://api.github.com/repos/crazydoglady/theDOMinators/hooks",
+"issue_events_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues/events{/number}",
+"events_url": "https://api.github.com/repos/crazydoglady/theDOMinators/events",
+"assignees_url": "https://api.github.com/repos/crazydoglady/theDOMinators/assignees{/user}",
+"branches_url": "https://api.github.com/repos/crazydoglady/theDOMinators/branches{/branch}",
+"tags_url": "https://api.github.com/repos/crazydoglady/theDOMinators/tags",
+"blobs_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/crazydoglady/theDOMinators/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/crazydoglady/theDOMinators/languages",
+"stargazers_url": "https://api.github.com/repos/crazydoglady/theDOMinators/stargazers",
+"contributors_url": "https://api.github.com/repos/crazydoglady/theDOMinators/contributors",
+"subscribers_url": "https://api.github.com/repos/crazydoglady/theDOMinators/subscribers",
+"subscription_url": "https://api.github.com/repos/crazydoglady/theDOMinators/subscription",
+"commits_url": "https://api.github.com/repos/crazydoglady/theDOMinators/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/crazydoglady/theDOMinators/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues/comments/{number}",
+"contents_url": "https://api.github.com/repos/crazydoglady/theDOMinators/contents/{+path}",
+"compare_url": "https://api.github.com/repos/crazydoglady/theDOMinators/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/crazydoglady/theDOMinators/merges",
+"archive_url": "https://api.github.com/repos/crazydoglady/theDOMinators/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/crazydoglady/theDOMinators/downloads",
+"issues_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues{/number}",
+"pulls_url": "https://api.github.com/repos/crazydoglady/theDOMinators/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/crazydoglady/theDOMinators/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/crazydoglady/theDOMinators/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/crazydoglady/theDOMinators/labels{/name}",
+"releases_url": "https://api.github.com/repos/crazydoglady/theDOMinators/releases{/id}",
+"created_at": "2015-01-29T18:29:45Z",
+"updated_at": "2015-01-29T17:05:56Z",
+"pushed_at": "2015-01-29T18:41:09Z",
+"git_url": "git://github.com/crazydoglady/theDOMinators.git",
+"ssh_url": "git@github.com:crazydoglady/theDOMinators.git",
+"clone_url": "https://github.com/crazydoglady/theDOMinators.git",
+"svn_url": "https://github.com/crazydoglady/theDOMinators",
+"homepage": null,
+"size": 0,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": null,
+"has_issues": false,
+"has_downloads": true,
+"has_wiki": true,
+"has_pages": false,
+"forks_count": 0,
+"mirror_url": null,
+"open_issues_count": 0,
+"forks": 0,
+"open_issues": 0,
+"watchers": 0,
+"default_branch": "master"
+}
+},
+"base": {
+"label": "TIY-Charleston-Front-End-Jan2015:master",
+"ref": "master",
+"sha": "3365eff3018768caedfc573f747c4636932eae24",
+"user": {
+"login": "TIY-Charleston-Front-End-Jan2015",
+"id": 10147338,
+"avatar_url": "https://avatars.githubusercontent.com/u/10147338?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015",
+"html_url": "https://github.com/TIY-Charleston-Front-End-Jan2015",
+"followers_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/followers",
+"following_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/following{/other_user}",
+"gists_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/subscriptions",
+"organizations_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/orgs",
+"repos_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/repos",
+"events_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/events{/privacy}",
+"received_events_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/received_events",
+"type": "Organization",
+"site_admin": false
+},
+"repo": {
+"id": 30031120,
+"name": "theDOMinators",
+"full_name": "TIY-Charleston-Front-End-Jan2015/theDOMinators",
+"owner": {
+"login": "TIY-Charleston-Front-End-Jan2015",
+"id": 10147338,
+"avatar_url": "https://avatars.githubusercontent.com/u/10147338?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015",
+"html_url": "https://github.com/TIY-Charleston-Front-End-Jan2015",
+"followers_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/followers",
+"following_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/following{/other_user}",
+"gists_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/subscriptions",
+"organizations_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/orgs",
+"repos_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/repos",
+"events_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/events{/privacy}",
+"received_events_url": "https://api.github.com/users/TIY-Charleston-Front-End-Jan2015/received_events",
+"type": "Organization",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators",
+"description": "",
+"fork": false,
+"url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators",
+"forks_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/forks",
+"keys_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/teams",
+"hooks_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/hooks",
+"issue_events_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/events{/number}",
+"events_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/events",
+"assignees_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/assignees{/user}",
+"branches_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/branches{/branch}",
+"tags_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/tags",
+"blobs_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/languages",
+"stargazers_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/stargazers",
+"contributors_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/contributors",
+"subscribers_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/subscribers",
+"subscription_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/subscription",
+"commits_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/comments/{number}",
+"contents_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/contents/{+path}",
+"compare_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/merges",
+"archive_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/downloads",
+"issues_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues{/number}",
+"pulls_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/labels{/name}",
+"releases_url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/releases{/id}",
+"created_at": "2015-01-29T17:05:56Z",
+"updated_at": "2015-01-29T17:05:56Z",
+"pushed_at": "2015-01-29T17:05:56Z",
+"git_url": "git://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators.git",
+"ssh_url": "git@github.com:TIY-Charleston-Front-End-Jan2015/theDOMinators.git",
+"clone_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators.git",
+"svn_url": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators",
+"homepage": null,
+"size": 0,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": null,
+"has_issues": true,
+"has_downloads": true,
+"has_wiki": true,
+"has_pages": false,
+"forks_count": 2,
+"mirror_url": null,
+"open_issues_count": 1,
+"forks": 2,
+"open_issues": 1,
+"watchers": 0,
+"default_branch": "master"
+}
+},
+"_links": {
+"self": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1"
+},
+"html": {
+"href": "https://github.com/TIY-Charleston-Front-End-Jan2015/theDOMinators/pull/1"
+},
+"issue": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/1"
+},
+"comments": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/issues/1/comments"
+},
+"review_comments": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1/comments"
+},
+"review_comment": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/comments/{number}"
+},
+"commits": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/pulls/1/commits"
+},
+"statuses": {
+"href": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators/statuses/5cebdf08d0d007d15fa3362d535d48d11b4bc699"
+}
+},
+"merged": false,
+"mergeable": null,
+"mergeable_state": "unknown",
+"merged_by": null,
+"comments": 0,
+"review_comments": 0,
+"commits": 1,
+"additions": 20759,
+"deletions": 0,
+"changed_files": 106
+}
+},
+"public": true,
+"created_at": "2015-01-29T18:42:07Z",
+"org": {
+"id": 10147338,
+"login": "TIY-Charleston-Front-End-Jan2015",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/TIY-Charleston-Front-End-Jan2015",
+"avatar_url": "https://avatars.githubusercontent.com/u/10147338?"
+}
+},
+{
+"id": "2545678290",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 30034719,
+"name": "crazydoglady/theDOMinators",
+"url": "https://api.github.com/repos/crazydoglady/theDOMinators"
+},
+"payload": {
+"push_id": 559973012,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "5cebdf08d0d007d15fa3362d535d48d11b4bc699",
+"before": "3365eff3018768caedfc573f747c4636932eae24",
+"commits": [
+{
+"sha": "5cebdf08d0d007d15fa3362d535d48d11b4bc699",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial commit for group project",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/theDOMinators/commits/5cebdf08d0d007d15fa3362d535d48d11b4bc699"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-29T18:41:09Z"
+},
+{
+"id": "2545650125",
+"type": "ForkEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 30031120,
+"name": "TIY-Charleston-Front-End-Jan2015/theDOMinators",
+"url": "https://api.github.com/repos/TIY-Charleston-Front-End-Jan2015/theDOMinators"
+},
+"payload": {
+"forkee": {
+"id": 30034719,
+"name": "theDOMinators",
+"full_name": "crazydoglady/theDOMinators",
+"owner": {
+"login": "crazydoglady",
+"id": 8411222,
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"html_url": "https://github.com/crazydoglady",
+"followers_url": "https://api.github.com/users/crazydoglady/followers",
+"following_url": "https://api.github.com/users/crazydoglady/following{/other_user}",
+"gists_url": "https://api.github.com/users/crazydoglady/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/crazydoglady/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/crazydoglady/subscriptions",
+"organizations_url": "https://api.github.com/users/crazydoglady/orgs",
+"repos_url": "https://api.github.com/users/crazydoglady/repos",
+"events_url": "https://api.github.com/users/crazydoglady/events{/privacy}",
+"received_events_url": "https://api.github.com/users/crazydoglady/received_events",
+"type": "User",
+"site_admin": false
+},
+"private": false,
+"html_url": "https://github.com/crazydoglady/theDOMinators",
+"description": "",
+"fork": true,
+"url": "https://api.github.com/repos/crazydoglady/theDOMinators",
+"forks_url": "https://api.github.com/repos/crazydoglady/theDOMinators/forks",
+"keys_url": "https://api.github.com/repos/crazydoglady/theDOMinators/keys{/key_id}",
+"collaborators_url": "https://api.github.com/repos/crazydoglady/theDOMinators/collaborators{/collaborator}",
+"teams_url": "https://api.github.com/repos/crazydoglady/theDOMinators/teams",
+"hooks_url": "https://api.github.com/repos/crazydoglady/theDOMinators/hooks",
+"issue_events_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues/events{/number}",
+"events_url": "https://api.github.com/repos/crazydoglady/theDOMinators/events",
+"assignees_url": "https://api.github.com/repos/crazydoglady/theDOMinators/assignees{/user}",
+"branches_url": "https://api.github.com/repos/crazydoglady/theDOMinators/branches{/branch}",
+"tags_url": "https://api.github.com/repos/crazydoglady/theDOMinators/tags",
+"blobs_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/blobs{/sha}",
+"git_tags_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/tags{/sha}",
+"git_refs_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/refs{/sha}",
+"trees_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/trees{/sha}",
+"statuses_url": "https://api.github.com/repos/crazydoglady/theDOMinators/statuses/{sha}",
+"languages_url": "https://api.github.com/repos/crazydoglady/theDOMinators/languages",
+"stargazers_url": "https://api.github.com/repos/crazydoglady/theDOMinators/stargazers",
+"contributors_url": "https://api.github.com/repos/crazydoglady/theDOMinators/contributors",
+"subscribers_url": "https://api.github.com/repos/crazydoglady/theDOMinators/subscribers",
+"subscription_url": "https://api.github.com/repos/crazydoglady/theDOMinators/subscription",
+"commits_url": "https://api.github.com/repos/crazydoglady/theDOMinators/commits{/sha}",
+"git_commits_url": "https://api.github.com/repos/crazydoglady/theDOMinators/git/commits{/sha}",
+"comments_url": "https://api.github.com/repos/crazydoglady/theDOMinators/comments{/number}",
+"issue_comment_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues/comments/{number}",
+"contents_url": "https://api.github.com/repos/crazydoglady/theDOMinators/contents/{+path}",
+"compare_url": "https://api.github.com/repos/crazydoglady/theDOMinators/compare/{base}...{head}",
+"merges_url": "https://api.github.com/repos/crazydoglady/theDOMinators/merges",
+"archive_url": "https://api.github.com/repos/crazydoglady/theDOMinators/{archive_format}{/ref}",
+"downloads_url": "https://api.github.com/repos/crazydoglady/theDOMinators/downloads",
+"issues_url": "https://api.github.com/repos/crazydoglady/theDOMinators/issues{/number}",
+"pulls_url": "https://api.github.com/repos/crazydoglady/theDOMinators/pulls{/number}",
+"milestones_url": "https://api.github.com/repos/crazydoglady/theDOMinators/milestones{/number}",
+"notifications_url": "https://api.github.com/repos/crazydoglady/theDOMinators/notifications{?since,all,participating}",
+"labels_url": "https://api.github.com/repos/crazydoglady/theDOMinators/labels{/name}",
+"releases_url": "https://api.github.com/repos/crazydoglady/theDOMinators/releases{/id}",
+"created_at": "2015-01-29T18:29:45Z",
+"updated_at": "2015-01-29T17:05:56Z",
+"pushed_at": "2015-01-29T17:05:56Z",
+"git_url": "git://github.com/crazydoglady/theDOMinators.git",
+"ssh_url": "git@github.com:crazydoglady/theDOMinators.git",
+"clone_url": "https://github.com/crazydoglady/theDOMinators.git",
+"svn_url": "https://github.com/crazydoglady/theDOMinators",
+"homepage": null,
+"size": 0,
+"stargazers_count": 0,
+"watchers_count": 0,
+"language": null,
+"has_issues": false,
+"has_downloads": true,
+"has_wiki": true,
+"has_pages": false,
+"forks_count": 0,
+"mirror_url": null,
+"open_issues_count": 0,
+"forks": 0,
+"open_issues": 0,
+"watchers": 0,
+"default_branch": "master",
+"public": true
+}
+},
+"public": true,
+"created_at": "2015-01-29T18:29:45Z",
+"org": {
+"id": 10147338,
+"login": "TIY-Charleston-Front-End-Jan2015",
+"gravatar_id": "",
+"url": "https://api.github.com/orgs/TIY-Charleston-Front-End-Jan2015",
+"avatar_url": "https://avatars.githubusercontent.com/u/10147338?"
+}
+},
+{
+"id": "2544224698",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 559376302,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "59af5ebc4d687ef79e1832453fa38ebd509eb523",
+"before": "93d2822e09c36007030ff675d78043c34a0ba3b8",
+"commits": [
+{
+"sha": "59af5ebc4d687ef79e1832453fa38ebd509eb523",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "commit functions for github repo, templates broken and cant figure out",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/59af5ebc4d687ef79e1832453fa38ebd509eb523"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-29T07:49:51Z"
+},
+{
+"id": "2541347343",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 558204264,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "93d2822e09c36007030ff675d78043c34a0ba3b8",
+"before": "18f67dee77800012baf5118e27e1a761592597ee",
+"commits": [
+{
+"sha": "93d2822e09c36007030ff675d78043c34a0ba3b8",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial commi for github assignment",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/93d2822e09c36007030ff675d78043c34a0ba3b8"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-28T07:42:37Z"
+},
+{
+"id": "2541179667",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 558132856,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "18f67dee77800012baf5118e27e1a761592597ee",
+"before": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"commits": [
+{
+"sha": "18f67dee77800012baf5118e27e1a761592597ee",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "semi functional update function using prompt method. not able to get other way to work.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/18f67dee77800012baf5118e27e1a761592597ee"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-28T05:22:05Z"
+},
+{
+"id": "2540513723",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 557867308,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"before": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"commits": [
+{
+"sha": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": " initial commit for products page",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/6785716edcbc671ada6861d85d1d494464cbc9e7"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T22:18:44Z"
+},
+{
+"id": "2538273431",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 556951212,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"before": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"commits": [
+{
+"sha": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "commit styling of product page with images",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/09ca097c0b3febb50e770c4d7da4271eaa5dc24c"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T04:11:30Z"
+},
+{
+"id": "2538194933",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 556918478,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"before": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"commits": [
+{
+"sha": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial commit for products page",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/893f1a923abdf2b1114e87520e79c5d90adcabdc"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T03:04:53Z"
+},
+{
+"id": "2535614818",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555880104,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"before": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"commits": [
+{
+"sha": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "finished functionality in photo album",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/8558eae387a5a5bcd75087ddd354e0c5da895058"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T04:16:31Z"
+},
+{
+"id": "2535583531",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555866480,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"before": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"commits": [
+{
+"sha": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "final functional elements added to photo album.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/af4da73aa2d1474272b37d5155ddf412f0d7a356"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T03:38:22Z"
+},
+{
+"id": "2535515055",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555837277,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"before": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"commits": [
+{
+"sha": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "finishing touches on peralta full size layout, responsive elements still work in progress.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/4cbb7bbd9edca91a05b9333f15465a786dae1ea0"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T02:21:04Z"
+},
+{
+"id": "2535102682",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555644536,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"before": "4d2026f0be57acec5235d267b217e56851a3b584",
+"commits": [
+{
+"sha": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "adding homework assignments to unique repo",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/24521c2b9410d6f243491cab8a8f8c4a078e1037"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-25T18:01:37Z"
+},
+{
+"id": "2535100942",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"ref": "master",
+"ref_type": "branch",
+"master_branch": "master",
+"description": "Homework assignments",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-25T17:59:31Z"
+},
+{
+"id": "2535100437",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "Homework assignments",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-25T17:58:56Z"
+},
+{
+"id": "2535031423",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 555611028,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "d323961daadc1300a0b4ac441b354d5f1afe1c51",
+"before": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"commits": [
+{
+"sha": "d323961daadc1300a0b4ac441b354d5f1afe1c51",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "corrected JS functions homeowrk into .forEach loop",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/d323961daadc1300a0b4ac441b354d5f1afe1c51"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-25T16:29:33Z"
+},
+{
+"id": "2534176155",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 555216783,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"before": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"commits": [
+{
+"sha": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "styling for events assignment and removed duplicate event types",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/dfa21d1cf8475249635ca3236aad7507a8b0c4fe"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-24T17:44:09Z"
+},
+{
+"id": "2531608667",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 554148954,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"before": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"commits": [
+{
+"sha": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "Event Trivia game is functional.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T09:01:50Z"
+},
+{
+"id": "2531480879",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 554094537,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"before": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"commits": [
+{
+"sha": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "jquery events trivia game, some are working",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/c72c057b9cfb5f91c2299bc88513d9616dadc9da"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T07:29:27Z"
+},
+{
+"id": "2531183969",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29713358,
+"name": "crazydoglady/jquery",
+"url": "https://api.github.com/repos/crazydoglady/jquery"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "jquery info",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-23T02:48:51Z"
+},
+{
+"id": "2531172025",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553964637,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"before": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"commits": [
+{
+"sha": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "remame folder; get rid of whitespace",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/b77e7284dd60b4b671bd1446d309b923e2a24a0b"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T02:39:10Z"
+},
+{
+"id": "2531160940",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553960190,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"before": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"commits": [
+{
+"sha": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "cleanup",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T02:30:26Z"
+},
+{
+"id": "2531055458",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553918542,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"before": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"commits": [
+{
+"sha": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "file reorg, remove some dupliction of files",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/7b12e99655090bf3f4736fecdcbe5a76104e56b8"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T01:15:31Z"
+},
+{
+"id": "2528828345",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553012504,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"before": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"commits": [
+{
+"sha": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "IT WORKS, not pretty and oncei mages enlarge cannot get them back to small.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/b2fe06337eb161e72f777793d264d245d5cfa847"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T08:35:25Z"
+},
+{
+"id": "2528697190",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 552957099,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"before": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"commits": [
+{
+"sha": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "I WROTE A FUNCTION AND IT WORKS, still have some work to do.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/cb827c2b063d6ba96d3004184d5dcef749ff0d58"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T06:55:59Z"
+},
+{
+"id": "2528567642",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 552904223,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"before": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"commits": [
+{
+"sha": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial push for photo gallery",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/5a498df04a3a16ea1dccce7513c4cf9a7f84390f"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T04:59:39Z"
+},
+{
+"id": "2525748262",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 551779213,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"before": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"commits": [
+{
+"sha": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "file reorg and jsFunction homework",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-21T05:11:58Z"
+},
+{
+"id": "2524770731",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 551396448,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"before": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"commits": [
+{
+"sha": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "formatting fixes to peralta, it's getting there.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/dfec38d345fd82e9d410dc95c1cba59185c3856a"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T19:58:43Z"
+},
+{
+"id": "2523170955",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550740667,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"before": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"commits": [
+{
+"sha": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "I give up",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/2dd866550d6c454fb091f592a7b624ef66f09721"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T07:54:51Z"
+},
+{
+"id": "2523115706",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550717387,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"before": "c523ef833c7ec51514104e61e8b711165e282306",
+"commits": [
+{
+"sha": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "this assignment is going to kill me",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/356536cc4ee3b9ae5e9b34332ad31d7304beb981"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T07:09:07Z"
+}
+]

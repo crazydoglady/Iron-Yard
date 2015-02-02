@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glitter Moose Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>GLITTER MOOSE GALLERY</h1>
+    <h5>Original Artwork by Val K. Harvey</h5>
+  </header>
+  <section>
+    <article class="form">
+      <h2>Add New Item</h2>
+      <form name= "addNew" action="submit">
+        <h4><label for="title">Item Name</label>
+          <input type="text" name="name" placeholder="Title">
+        </h4>
+        <p>
+          <h4><label for="image">Image URL</label>
+          <input type="url" name="image" placeholder="image url">
+          </h4>
+        </p>
+        <p>
+          <h4><label for="description">Item Description</label>
+          <textarea name="description" id="description" cols="30" rows="10"></textarea>
+          </h4>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </article>
+  </section>
+  <footer>
+  </footer>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+
+<script src="data.js"></script>
+<script src="templates.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
